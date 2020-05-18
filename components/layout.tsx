@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from './header'
 import Link from 'next/link'
 
 export default function Layout({
@@ -10,25 +11,10 @@ export default function Layout({
         <div>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                
-                {/* TODO: create configurable meta tags
-                <meta
-                    name="description"
-                    content=""
-                />
-                <meta
-                    //todo, add configurable meta tags
-                    property="og:image"
-                />    
-                
-                <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
-                 */}
             </Head>
-            <header>
-                
-            </header>
+            <Header></Header>
             <main>{children}</main>
+            <footer></footer>
         </div>
     )
 }
