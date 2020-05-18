@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './header'
+import Navigation from './navigation'
 import Link from 'next/link'
 
 export default function Layout({
@@ -13,6 +14,7 @@ export default function Layout({
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
+            <Navigation></Navigation>
             <main>{children}</main>
             <footer></footer>
         </div>
