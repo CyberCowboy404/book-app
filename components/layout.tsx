@@ -1,13 +1,11 @@
 import Head from 'next/head'
-import Header from './header'
-import Navigation from './navigation'
 import Link from 'next/link'
 
-export default function Layout({
-    children
-}: {
-    children: React.ReactNode
-}) {
+import Header from './common/header'
+import Navigation from './common/navigation'
+import Footer from './common/footer'
+
+export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <div>
             <Head>
@@ -16,7 +14,7 @@ export default function Layout({
             <Header></Header>
             <Navigation></Navigation>
             <main>{children}</main>
-            <footer></footer>
+            <Footer></Footer>
         </div>
     )
 }
