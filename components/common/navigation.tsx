@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import IMenuLinks from '../../interfaces/menu-links';
+import IMenuLinks from '../../interfaces/IMenuLinks';
 
 export default function Navigation() {
     const navigationLinks: IMenuLinks[] = [

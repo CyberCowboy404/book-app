@@ -1,4 +1,4 @@
-import IMenuLinks from '../../interfaces/menu-links';
+import IMenuLinks from '../../interfaces/IMenuLinks';
 import Link from 'next/link';
 
 export default function Footer() {

@@ -1,7 +1,5 @@
+import ProductVertical from './ProductVertical';
+
 export default function FeaturedCategory() {
-    return <div>
-        <img src="" alt=""/>
-        <h3>Author</h3>
-        <p>Price</p>
-    </div>
+    return <ProductVertical></ProductVertical>
 }
