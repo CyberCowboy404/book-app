@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout';
 import FeaturedCategory from '../components/FeaturedCategory';
 import { GetStaticProps } from 'next'
-import GetProductsForMainPage from '../lib/GetProductsForMainPage';
+import { GetFeaturedProducts } from '../lib/GetProducts';
 import IFeaturedCategory from '../interfaces/IFeaturedCategories';
 
 export default function Home({ products }: { products: IFeaturedCategory[] }) {
@@ -20,7 +20,7 @@ export default function Home({ products }: { products: IFeaturedCategory[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const products: IFeaturedCategory[] = GetProductsForMainPage();
+  const products: IFeaturedCategory[] = GetFeaturedProducts();
   return {
     props: {
       products

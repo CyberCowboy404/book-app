@@ -19,4 +19,5 @@ export interface IProductAttributes {
     rating?: Number;
     currency?: string;
     slug: string;
+    country?: string;
 }

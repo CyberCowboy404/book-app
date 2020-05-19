@@ -4,7 +4,7 @@
         "country": "Nigeria",
         "photos": [
             {
-                "url": "images/things-fall-apart.jpg",
+                "url": "/images/things-fall-apart.jpg",
                 "isMain": true
             }
         ],
@@ -28,7 +28,7 @@
         "country": "Denmark",
         "photos": [
             {
-                "url": "images/fairy-tales.jpg",
+                "url": "/images/fairy-tales.jpg",
                 "isMain": true
             }
         ],
@@ -52,7 +52,7 @@
         "country": "Italy",
         "photos": [
             {
-                "url": "images/the-divine-comedy.jpg",
+                "url": "/images/the-divine-comedy.jpg",
                 "isMain": true
             }
         ],
@@ -76,7 +76,7 @@
         "country": "Sumer and Akkadian Empire",
         "photos": [
             {
-                "url": "images/the-epic-of-gilgamesh.jpg",
+                "url": "/images/the-epic-of-gilgamesh.jpg",
                 "isMain": true
             }
         ],
@@ -100,7 +100,7 @@
         "country": "Achaemenid Empire",
         "photos": [
             {
-                "url": "images/the-book-of-job.jpg",
+                "url": "/images/the-book-of-job.jpg",
                 "isMain": true
             }
         ],
@@ -124,7 +124,7 @@
         "country": "India/Iran/Iraq/Egypt/Tajikistan",
         "photos": [
             {
-                "url": "images/one-thousand-and-one-nights.jpg",
+                "url": "/images/one-thousand-and-one-nights.jpg",
                 "isMain": true
             }
         ],
@@ -148,7 +148,7 @@
         "country": "Iceland",
         "photos": [
             {
-                "url": "images/njals-saga.jpg",
+                "url": "/images/njals-saga.jpg",
                 "isMain": true
             }
         ],
@@ -172,7 +172,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/pride-and-prejudice.jpg",
+                "url": "/images/pride-and-prejudice.jpg",
                 "isMain": true
             }
         ],
@@ -196,7 +196,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/le-pere-goriot.jpg",
+                "url": "/images/le-pere-goriot.jpg",
                 "isMain": true
             }
         ],
@@ -220,7 +220,7 @@
         "country": "Republic of Ireland",
         "photos": [
             {
-                "url": "images/molloy-malone-dies-the-unnamable.jpg",
+                "url": "/images/molloy-malone-dies-the-unnamable.jpg",
                 "isMain": true
             }
         ],
@@ -244,7 +244,7 @@
         "country": "Italy",
         "photos": [
             {
-                "url": "images/the-decameron.jpg",
+                "url": "/images/the-decameron.jpg",
                 "isMain": true
             }
         ],
@@ -268,7 +268,7 @@
         "country": "Argentina",
         "photos": [
             {
-                "url": "images/ficciones.jpg",
+                "url": "/images/ficciones.jpg",
                 "isMain": true
             }
         ],
@@ -292,7 +292,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/wuthering-heights.jpg",
+                "url": "/images/wuthering-heights.jpg",
                 "isMain": true
             }
         ],
@@ -316,7 +316,7 @@
         "country": "Algeria, French Empire",
         "photos": [
             {
-                "url": "images/l-etranger.jpg",
+                "url": "/images/l-etranger.jpg",
                 "isMain": true
             }
         ],
@@ -340,7 +340,7 @@
         "country": "Romania, France",
         "photos": [
             {
-                "url": "images/poems-paul-celan.jpg",
+                "url": "/images/poems-paul-celan.jpg",
                 "isMain": true
             }
         ],
@@ -364,7 +364,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/voyage-au-bout-de-la-nuit.jpg",
+                "url": "/images/voyage-au-bout-de-la-nuit.jpg",
                 "isMain": true
             }
         ],
@@ -388,7 +388,7 @@
         "country": "Spain",
         "photos": [
             {
-                "url": "images/don-quijote-de-la-mancha.jpg",
+                "url": "/images/don-quijote-de-la-mancha.jpg",
                 "isMain": true
             }
         ],
@@ -412,7 +412,7 @@
         "country": "England",
         "photos": [
             {
-                "url": "images/the-canterbury-tales.jpg",
+                "url": "/images/the-canterbury-tales.jpg",
                 "isMain": true
             }
         ],
@@ -436,7 +436,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/stories-of-anton-chekhov.jpg",
+                "url": "/images/stories-of-anton-chekhov.jpg",
                 "isMain": true
             }
         ],
@@ -460,7 +460,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/nostromo.jpg",
+                "url": "/images/nostromo.jpg",
                 "isMain": true
             }
         ],
@@ -484,7 +484,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/great-expectations.jpg",
+                "url": "/images/great-expectations.jpg",
                 "isMain": true
             }
         ],
@@ -508,7 +508,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/jacques-the-fatalist.jpg",
+                "url": "/images/jacques-the-fatalist.jpg",
                 "isMain": true
             }
         ],
@@ -532,7 +532,7 @@
         "country": "Germany",
         "photos": [
             {
-                "url": "images/berlin-alexanderplatz.jpg",
+                "url": "/images/berlin-alexanderplatz.jpg",
                 "isMain": true
             }
         ],
@@ -556,7 +556,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/crime-and-punishment.jpg",
+                "url": "/images/crime-and-punishment.jpg",
                 "isMain": true
             }
         ],
@@ -580,7 +580,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/the-idiot.jpg",
+                "url": "/images/the-idiot.jpg",
                 "isMain": true
             }
         ],
@@ -604,7 +604,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/the-possessed.jpg",
+                "url": "/images/the-possessed.jpg",
                 "isMain": true
             }
         ],
@@ -628,7 +628,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/the-brothers-karamazov.jpg",
+                "url": "/images/the-brothers-karamazov.jpg",
                 "isMain": true
             }
         ],
@@ -652,7 +652,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/middlemarch.jpg",
+                "url": "/images/middlemarch.jpg",
                 "isMain": true
             }
         ],
@@ -675,7 +675,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/invisible-man.jpg",
+                "url": "/images/invisible-man.jpg",
                 "isMain": true
             }
         ],
@@ -698,7 +698,7 @@
         "country": "Greece",
         "photos": [
             {
-                "url": "images/medea.jpg",
+                "url": "/images/medea.jpg",
                 "isMain": true
             }
         ],
@@ -721,7 +721,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/absalom-absalom.jpg",
+                "url": "/images/absalom-absalom.jpg",
                 "isMain": true
             }
         ],
@@ -744,7 +744,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/the-sound-and-the-fury.jpg",
+                "url": "/images/the-sound-and-the-fury.jpg",
                 "isMain": true
             }
         ],
@@ -767,7 +767,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/madame-bovary.jpg",
+                "url": "/images/madame-bovary.jpg",
                 "isMain": true
             }
         ],
@@ -790,7 +790,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/l-education-sentimentale.jpg",
+                "url": "/images/l-education-sentimentale.jpg",
                 "isMain": true
             }
         ],
@@ -813,7 +813,7 @@
         "country": "Spain",
         "photos": [
             {
-                "url": "images/gypsy-ballads.jpg",
+                "url": "/images/gypsy-ballads.jpg",
                 "isMain": true
             }
         ],
@@ -836,7 +836,7 @@
         "country": "Colombia",
         "photos": [
             {
-                "url": "images/one-hundred-years-of-solitude.jpg",
+                "url": "/images/one-hundred-years-of-solitude.jpg",
                 "isMain": true
             }
         ],
@@ -859,7 +859,7 @@
         "country": "Colombia",
         "photos": [
             {
-                "url": "images/love-in-the-time-of-cholera.jpg",
+                "url": "/images/love-in-the-time-of-cholera.jpg",
                 "isMain": true
             }
         ],
@@ -882,7 +882,7 @@
         "country": "Saxe-Weimar",
         "photos": [
             {
-                "url": "images/faust.jpg",
+                "url": "/images/faust.jpg",
                 "isMain": true
             }
         ],
@@ -905,7 +905,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/dead-souls.jpg",
+                "url": "/images/dead-souls.jpg",
                 "isMain": true
             }
         ],
@@ -928,7 +928,7 @@
         "country": "Germany",
         "photos": [
             {
-                "url": "images/the-tin-drum.jpg",
+                "url": "/images/the-tin-drum.jpg",
                 "isMain": true
             }
         ],
@@ -951,7 +951,7 @@
         "country": "Brazil",
         "photos": [
             {
-                "url": "images/the-devil-to-pay-in-the-backlands.jpg",
+                "url": "/images/the-devil-to-pay-in-the-backlands.jpg",
                 "isMain": true
             }
         ],
@@ -974,7 +974,7 @@
         "country": "Norway",
         "photos": [
             {
-                "url": "images/hunger.jpg",
+                "url": "/images/hunger.jpg",
                 "isMain": true
             }
         ],
@@ -997,7 +997,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/the-old-man-and-the-sea.jpg",
+                "url": "/images/the-old-man-and-the-sea.jpg",
                 "isMain": true
             }
         ],
@@ -1020,7 +1020,7 @@
         "country": "Greece",
         "photos": [
             {
-                "url": "images/the-iliad-of-homer.jpg",
+                "url": "/images/the-iliad-of-homer.jpg",
                 "isMain": true
             }
         ],
@@ -1043,7 +1043,7 @@
         "country": "Greece",
         "photos": [
             {
-                "url": "images/the-odyssey-of-homer.jpg",
+                "url": "/images/the-odyssey-of-homer.jpg",
                 "isMain": true
             }
         ],
@@ -1066,7 +1066,7 @@
         "country": "Norway",
         "photos": [
             {
-                "url": "images/a-Dolls-house.jpg",
+                "url": "/images/a-Dolls-house.jpg",
                 "isMain": true
             }
         ],
@@ -1089,7 +1089,7 @@
         "country": "Irish Free State",
         "photos": [
             {
-                "url": "images/ulysses.jpg",
+                "url": "/images/ulysses.jpg",
                 "isMain": true
             }
         ],
@@ -1113,7 +1113,7 @@
         "country": "Czechoslovakia",
         "photos": [
             {
-                "url": "images/stories-of-franz-kafka.jpg",
+                "url": "/images/stories-of-franz-kafka.jpg",
                 "isMain": true
             }
         ],
@@ -1137,7 +1137,7 @@
         "country": "Czechoslovakia",
         "photos": [
             {
-                "url": "images/the-trial.jpg",
+                "url": "/images/the-trial.jpg",
                 "isMain": true
             }
         ],
@@ -1161,7 +1161,7 @@
         "country": "Czechoslovakia",
         "photos": [
             {
-                "url": "images/the-castle.jpg",
+                "url": "/images/the-castle.jpg",
                 "isMain": true
             }
         ],
@@ -1185,7 +1185,7 @@
         "country": "India",
         "photos": [
             {
-                "url": "images/the-recognition-of-shakuntala.jpg",
+                "url": "/images/the-recognition-of-shakuntala.jpg",
                 "isMain": true
             }
         ],
@@ -1209,7 +1209,7 @@
         "country": "Japan",
         "photos": [
             {
-                "url": "images/the-sound-of-the-mountain.jpg",
+                "url": "/images/the-sound-of-the-mountain.jpg",
                 "isMain": true
             }
         ],
@@ -1233,7 +1233,7 @@
         "country": "Greece",
         "photos": [
             {
-                "url": "images/zorba-the-greek.jpg",
+                "url": "/images/zorba-the-greek.jpg",
                 "isMain": true
             }
         ],
@@ -1257,7 +1257,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/sons-and-lovers.jpg",
+                "url": "/images/sons-and-lovers.jpg",
                 "isMain": true
             }
         ],
@@ -1281,7 +1281,7 @@
         "country": "Iceland",
         "photos": [
             {
-                "url": "images/independent-people.jpg",
+                "url": "/images/independent-people.jpg",
                 "isMain": true
             }
         ],
@@ -1305,7 +1305,7 @@
         "country": "Italy",
         "photos": [
             {
-                "url": "images/poems-giacomo-leopardi.jpg",
+                "url": "/images/poems-giacomo-leopardi.jpg",
                 "isMain": true
             }
         ],
@@ -1329,7 +1329,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/the-golden-notebook.jpg",
+                "url": "/images/the-golden-notebook.jpg",
                 "isMain": true
             }
         ],
@@ -1353,7 +1353,7 @@
         "country": "Sweden",
         "photos": [
             {
-                "url": "images/pippi-longstocking.jpg",
+                "url": "/images/pippi-longstocking.jpg",
                 "isMain": true
             }
         ],
@@ -1377,7 +1377,7 @@
         "country": "China",
         "photos": [
             {
-                "url": "images/diary-of-a-madman.jpg",
+                "url": "/images/diary-of-a-madman.jpg",
                 "isMain": true
             }
         ],
@@ -1401,7 +1401,7 @@
         "country": "Egypt",
         "photos": [
             {
-                "url": "images/children-of-gebelawi.jpg",
+                "url": "/images/children-of-gebelawi.jpg",
                 "isMain": true
             }
         ],
@@ -1425,7 +1425,7 @@
         "country": "Germany",
         "photos": [
             {
-                "url": "images/buddenbrooks.jpg",
+                "url": "/images/buddenbrooks.jpg",
                 "isMain": true
             }
         ],
@@ -1449,7 +1449,7 @@
         "country": "Germany",
         "photos": [
             {
-                "url": "images/the-magic-mountain.jpg",
+                "url": "/images/the-magic-mountain.jpg",
                 "isMain": true
             }
         ],
@@ -1473,7 +1473,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/moby-dick.jpg",
+                "url": "/images/moby-dick.jpg",
                 "isMain": true
             }
         ],
@@ -1497,7 +1497,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/essais.jpg",
+                "url": "/images/essais.jpg",
                 "isMain": true
             }
         ],
@@ -1521,7 +1521,7 @@
         "country": "Italy",
         "photos": [
             {
-                "url": "images/history.jpg",
+                "url": "/images/history.jpg",
                 "isMain": true
             }
         ],
@@ -1545,7 +1545,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/beloved.jpg",
+                "url": "/images/beloved.jpg",
                 "isMain": true
             }
         ],
@@ -1569,7 +1569,7 @@
         "country": "Japan",
         "photos": [
             {
-                "url": "images/the-tale-of-genji.jpg",
+                "url": "/images/the-tale-of-genji.jpg",
                 "isMain": true
             }
         ],
@@ -1593,7 +1593,7 @@
         "country": "Austria",
         "photos": [
             {
-                "url": "images/the-man-without-qualities.jpg",
+                "url": "/images/the-man-without-qualities.jpg",
                 "isMain": true
             }
         ],
@@ -1617,7 +1617,7 @@
         "country": "Russia/United States",
         "photos": [
             {
-                "url": "images/lolita.jpg",
+                "url": "/images/lolita.jpg",
                 "isMain": true
             }
         ],
@@ -1641,7 +1641,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/nineteen-eighty-four.jpg",
+                "url": "/images/nineteen-eighty-four.jpg",
                 "isMain": true
             }
         ],
@@ -1665,7 +1665,7 @@
         "country": "Roman Empire",
         "photos": [
             {
-                "url": "images/the-metamorphoses-of-ovid.jpg",
+                "url": "/images/the-metamorphoses-of-ovid.jpg",
                 "isMain": true
             }
         ],
@@ -1689,7 +1689,7 @@
         "country": "Portugal",
         "photos": [
             {
-                "url": "images/the-book-of-disquiet.jpg",
+                "url": "/images/the-book-of-disquiet.jpg",
                 "isMain": true
             }
         ],
@@ -1713,7 +1713,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/tales-and-poems-of-edgar-allan-poe.jpg",
+                "url": "/images/tales-and-poems-of-edgar-allan-poe.jpg",
                 "isMain": true
             }
         ],
@@ -1737,7 +1737,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/a-la-recherche-du-temps-perdu.jpg",
+                "url": "/images/a-la-recherche-du-temps-perdu.jpg",
                 "isMain": true
             }
         ],
@@ -1761,7 +1761,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/gargantua-and-pantagruel.jpg",
+                "url": "/images/gargantua-and-pantagruel.jpg",
                 "isMain": true
             }
         ],
@@ -1785,7 +1785,7 @@
         "country": "Mexico",
         "photos": [
             {
-                "url": "images/pedro-paramo.jpg",
+                "url": "/images/pedro-paramo.jpg",
                 "isMain": true
             }
         ],
@@ -1809,7 +1809,7 @@
         "country": "Sultanate of Rum",
         "photos": [
             {
-                "url": "images/the-masnavi.jpg",
+                "url": "/images/the-masnavi.jpg",
                 "isMain": true
             }
         ],
@@ -1833,7 +1833,7 @@
         "country": "United Kingdom, India",
         "photos": [
             {
-                "url": "images/midnights-children.jpg",
+                "url": "/images/midnights-children.jpg",
                 "isMain": true
             }
         ],
@@ -1857,7 +1857,7 @@
         "country": "Persia, Persian Empire",
         "photos": [
             {
-                "url": "images/bostan.jpg",
+                "url": "/images/bostan.jpg",
                 "isMain": true
             }
         ],
@@ -1881,7 +1881,7 @@
         "country": "Sudan",
         "photos": [
             {
-                "url": "images/season-of-migration-to-the-north.jpg",
+                "url": "/images/season-of-migration-to-the-north.jpg",
                 "isMain": true
             }
         ],
@@ -1904,7 +1904,7 @@
         "country": "Portugal",
         "photos": [
             {
-                "url": "images/blindness.jpg",
+                "url": "/images/blindness.jpg",
                 "isMain": true
             }
         ],
@@ -1927,7 +1927,7 @@
         "country": "England",
         "photos": [
             {
-                "url": "images/hamlet.jpg",
+                "url": "/images/hamlet.jpg",
                 "isMain": true
             }
         ],
@@ -1950,7 +1950,7 @@
         "country": "England",
         "photos": [
             {
-                "url": "images/king-lear.jpg",
+                "url": "/images/king-lear.jpg",
                 "isMain": true
             }
         ],
@@ -1973,7 +1973,7 @@
         "country": "England",
         "photos": [
             {
-                "url": "images/othello.jpg",
+                "url": "/images/othello.jpg",
                 "isMain": true
             }
         ],
@@ -1996,7 +1996,7 @@
         "country": "Greece",
         "photos": [
             {
-                "url": "images/oedipus-the-king.jpg",
+                "url": "/images/oedipus-the-king.jpg",
                 "isMain": true
             }
         ],
@@ -2019,7 +2019,7 @@
         "country": "France",
         "photos": [
             {
-                "url": "images/le-rouge-et-le-noir.jpg",
+                "url": "/images/le-rouge-et-le-noir.jpg",
                 "isMain": true
             }
         ],
@@ -2042,7 +2042,7 @@
         "country": "England",
         "photos": [
             {
-                "url": "images/the-life-and-opinions-of-tristram-shandy.jpg",
+                "url": "/images/the-life-and-opinions-of-tristram-shandy.jpg",
                 "isMain": true
             }
         ],
@@ -2065,7 +2065,7 @@
         "country": "Italy",
         "photos": [
             {
-                "url": "images/confessions-of-zeno.jpg",
+                "url": "/images/confessions-of-zeno.jpg",
                 "isMain": true
             }
         ],
@@ -2088,7 +2088,7 @@
         "country": "Ireland",
         "photos": [
             {
-                "url": "images/gullivers-travels.jpg",
+                "url": "/images/gullivers-travels.jpg",
                 "isMain": true
             }
         ],
@@ -2111,7 +2111,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/war-and-peace.jpg",
+                "url": "/images/war-and-peace.jpg",
                 "isMain": true
             }
         ],
@@ -2134,7 +2134,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/anna-karenina.jpg",
+                "url": "/images/anna-karenina.jpg",
                 "isMain": true
             }
         ],
@@ -2157,7 +2157,7 @@
         "country": "Russia",
         "photos": [
             {
-                "url": "images/the-death-of-ivan-ilyich.jpg",
+                "url": "/images/the-death-of-ivan-ilyich.jpg",
                 "isMain": true
             }
         ],
@@ -2180,7 +2180,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/the-adventures-of-huckleberry-finn.jpg",
+                "url": "/images/the-adventures-of-huckleberry-finn.jpg",
                 "isMain": true
             }
         ],
@@ -2203,7 +2203,7 @@
         "country": "India",
         "photos": [
             {
-                "url": "images/ramayana.jpg",
+                "url": "/images/ramayana.jpg",
                 "isMain": true
             }
         ],
@@ -2226,7 +2226,7 @@
         "country": "Roman Empire",
         "photos": [
             {
-                "url": "images/the-aeneid.jpg",
+                "url": "/images/the-aeneid.jpg",
                 "isMain": true
             }
         ],
@@ -2249,7 +2249,7 @@
         "country": "India",
         "photos": [
             {
-                "url": "images/the-mahab-harata.jpg",
+                "url": "/images/the-mahab-harata.jpg",
                 "isMain": true
             }
         ],
@@ -2272,7 +2272,7 @@
         "country": "United States",
         "photos": [
             {
-                "url": "images/leaves-of-grass.jpg",
+                "url": "/images/leaves-of-grass.jpg",
                 "isMain": true
             }
         ],
@@ -2295,7 +2295,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/mrs-dalloway.jpg",
+                "url": "/images/mrs-dalloway.jpg",
                 "isMain": true
             }
         ],
@@ -2318,7 +2318,7 @@
         "country": "United Kingdom",
         "photos": [
             {
-                "url": "images/to-the-lighthouse.jpg",
+                "url": "/images/to-the-lighthouse.jpg",
                 "isMain": true
             }
         ],
@@ -2341,7 +2341,7 @@
         "country": "France/Belgium",
         "photos": [
             {
-                "url": "images/memoirs-of-hadrian.jpg",
+                "url": "/images/memoirs-of-hadrian.jpg",
                 "isMain": true
             }
         ],
