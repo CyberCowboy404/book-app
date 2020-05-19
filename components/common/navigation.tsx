@@ -14,7 +14,7 @@ export default function Navigation() {
             <ul>
                 {navigationLinks.map((el: IMenuLinks, i: number) => {
                     return <li key={i}>
-                        <Link href={'/search?category=' + el.url}>{el.name}</Link>
+                        <Link href={'/search?category=' + el.url}><a>{el.name}</a></Link>
                     </li>
                 })}
             </ul>

@@ -12,7 +12,7 @@ export default function Footer() {
     return <ul>
         {links.map((el: IMenuLinks, i: number) => {
             return <li key={i}>
-                <Link href={el.url}>{el.name}</Link>
+                <Link href={el.url}><a>{el.name}</a></Link>
             </li>
         })}
         <p>Copyright {new Date().getFullYear()}</p>

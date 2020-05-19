@@ -17,6 +17,6 @@ export interface IProductAttributes {
     description?: string;
     category: [string];
     rating?: Number;
-    isFeaturedOnMain?: Boolean;
     currency?: string;
+    slug: string;
 }
