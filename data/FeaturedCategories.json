@@ -1,6 +1,9 @@
 [
     {
-        "name": "New",
+        "category": {
+            "name": "New",
+            "slug": "fiction"
+        },
         "products": [
             {
                 "author": "Chinua Achebe",
@@ -77,7 +80,10 @@
         ]
     },
     {
-        "name": "Best Sellers",
+        "category": {
+            "name": "Best Sellers",
+            "slug": "fiction"
+        },
         "products": [
             {
                 "author": "Samuel Beckett",
@@ -346,7 +352,10 @@
         ]
     },
     {
-        "name": "Best in Fiction",
+        "category": {
+            "name": "Best in Fiction",
+            "slug": "fiction"
+        },
         "products": [
             {
                 "author": "Euripides",
@@ -512,7 +521,10 @@
         ]
     },
     {
-        "name": "Fantastic",
+        "category": {
+            "name": "Fantastic",
+            "slug": "fiction"
+        },
         "products": [
             {
                 "author": "Gabriel García Márquez",

@@ -1,7 +1,8 @@
 import {IProductAttributes} from './IProductAttributes';
+import ICategory from './ICategory';
 
 export default interface IFeaturedCategory {
-    name: string;
+    category: ICategory;
     products: IProductAttributes[]
 
 }

@@ -1,11 +1,13 @@
 import { IProductAttributes } from '../interfaces/IProductAttributes';
+import ICategory from '../interfaces/ICategory';
 import Link from 'next/link'
 
-export default function FeaturedCategory(props: { category: string, products: IProductAttributes[] }) {
-    console.log('props: ', props.products[0].slug);
+export default function FeaturedCategory(props: { category: ICategory, products: IProductAttributes[] }) {
 
     return <div>
-        <h2>{props.category}</h2>
+        <Link href={{ pathname: "/search", query: { category: props.category.slug } }}>
+            <h2>{props.category.name}</h2>
+        </Link>
         <div>
             {props.products.map((product: IProductAttributes, i: number) => {
                 return <Link key={i} href={product.slug}>
