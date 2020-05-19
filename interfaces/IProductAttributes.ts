@@ -1,23 +1,26 @@
+/* eslint-disable semi */
+/* eslint-disable no-extra-semi */
+
 export interface IProductPhoto {
-    url: string;
-    alt?: string;
-    isMain: Boolean;
-}
+  url: string;
+  alt?: string;
+  order: number;
+};
 
 export interface IProductAttributes {
-    id?: string;
-    photos: IProductPhoto[];
-    title: string;
-    year?: number;
-    author: string;
-    price: Number;
-    type?: string;
-    pages?: Number;
-    stockAmount?: Number;
-    description?: string;
-    category: [string];
-    rating?: Number;
-    currency?: string;
-    slug: string;
-    country?: string;
-}
+  id?: string;
+  photos: IProductPhoto[];
+  title: string;
+  year?: number;
+  author: string;
+  price: number;
+  type?: string;
+  pages?: number;
+  stockAmount?: number;
+  description?: string;
+  category: [string];
+  rating?: number;
+  currency?: string;
+  slug: string;
+  country?: string;
+};

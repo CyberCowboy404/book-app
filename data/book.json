@@ -5,7 +5,7 @@
         "photos": [
             {
                 "url": "/images/things-fall-apart.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -29,7 +29,7 @@
         "photos": [
             {
                 "url": "/images/fairy-tales.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Danish",
@@ -53,7 +53,7 @@
         "photos": [
             {
                 "url": "/images/the-divine-comedy.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Italian",
@@ -77,7 +77,7 @@
         "photos": [
             {
                 "url": "/images/the-epic-of-gilgamesh.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Akkadian",
@@ -101,7 +101,7 @@
         "photos": [
             {
                 "url": "/images/the-book-of-job.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Hebrew",
@@ -125,7 +125,7 @@
         "photos": [
             {
                 "url": "/images/one-thousand-and-one-nights.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Arabic",
@@ -149,7 +149,7 @@
         "photos": [
             {
                 "url": "/images/njals-saga.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Old Norse",
@@ -173,7 +173,7 @@
         "photos": [
             {
                 "url": "/images/pride-and-prejudice.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -197,7 +197,7 @@
         "photos": [
             {
                 "url": "/images/le-pere-goriot.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -221,7 +221,7 @@
         "photos": [
             {
                 "url": "/images/molloy-malone-dies-the-unnamable.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French, English",
@@ -245,7 +245,7 @@
         "photos": [
             {
                 "url": "/images/the-decameron.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Italian",
@@ -269,7 +269,7 @@
         "photos": [
             {
                 "url": "/images/ficciones.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -293,7 +293,7 @@
         "photos": [
             {
                 "url": "/images/wuthering-heights.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -317,7 +317,7 @@
         "photos": [
             {
                 "url": "/images/l-etranger.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -341,7 +341,7 @@
         "photos": [
             {
                 "url": "/images/poems-paul-celan.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -365,7 +365,7 @@
         "photos": [
             {
                 "url": "/images/voyage-au-bout-de-la-nuit.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -389,7 +389,7 @@
         "photos": [
             {
                 "url": "/images/don-quijote-de-la-mancha.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -413,7 +413,7 @@
         "photos": [
             {
                 "url": "/images/the-canterbury-tales.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -437,7 +437,7 @@
         "photos": [
             {
                 "url": "/images/stories-of-anton-chekhov.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -461,7 +461,7 @@
         "photos": [
             {
                 "url": "/images/nostromo.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -485,7 +485,7 @@
         "photos": [
             {
                 "url": "/images/great-expectations.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -509,7 +509,7 @@
         "photos": [
             {
                 "url": "/images/jacques-the-fatalist.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -533,7 +533,7 @@
         "photos": [
             {
                 "url": "/images/berlin-alexanderplatz.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -557,7 +557,7 @@
         "photos": [
             {
                 "url": "/images/crime-and-punishment.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -581,7 +581,7 @@
         "photos": [
             {
                 "url": "/images/the-idiot.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -605,7 +605,7 @@
         "photos": [
             {
                 "url": "/images/the-possessed.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -629,7 +629,7 @@
         "photos": [
             {
                 "url": "/images/the-brothers-karamazov.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -653,7 +653,7 @@
         "photos": [
             {
                 "url": "/images/middlemarch.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -676,7 +676,7 @@
         "photos": [
             {
                 "url": "/images/invisible-man.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -699,7 +699,7 @@
         "photos": [
             {
                 "url": "/images/medea.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Greek",
@@ -722,7 +722,7 @@
         "photos": [
             {
                 "url": "/images/absalom-absalom.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -745,7 +745,7 @@
         "photos": [
             {
                 "url": "/images/the-sound-and-the-fury.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -768,7 +768,7 @@
         "photos": [
             {
                 "url": "/images/madame-bovary.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -791,7 +791,7 @@
         "photos": [
             {
                 "url": "/images/l-education-sentimentale.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -814,7 +814,7 @@
         "photos": [
             {
                 "url": "/images/gypsy-ballads.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -837,7 +837,7 @@
         "photos": [
             {
                 "url": "/images/one-hundred-years-of-solitude.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -860,7 +860,7 @@
         "photos": [
             {
                 "url": "/images/love-in-the-time-of-cholera.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -883,7 +883,7 @@
         "photos": [
             {
                 "url": "/images/faust.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -906,7 +906,7 @@
         "photos": [
             {
                 "url": "/images/dead-souls.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -929,7 +929,7 @@
         "photos": [
             {
                 "url": "/images/the-tin-drum.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -952,7 +952,7 @@
         "photos": [
             {
                 "url": "/images/the-devil-to-pay-in-the-backlands.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Portuguese",
@@ -975,7 +975,7 @@
         "photos": [
             {
                 "url": "/images/hunger.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Norwegian",
@@ -998,7 +998,7 @@
         "photos": [
             {
                 "url": "/images/the-old-man-and-the-sea.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1021,7 +1021,7 @@
         "photos": [
             {
                 "url": "/images/the-iliad-of-homer.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Greek",
@@ -1044,7 +1044,7 @@
         "photos": [
             {
                 "url": "/images/the-odyssey-of-homer.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Greek",
@@ -1067,7 +1067,7 @@
         "photos": [
             {
                 "url": "/images/a-Dolls-house.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Norwegian",
@@ -1090,7 +1090,7 @@
         "photos": [
             {
                 "url": "/images/ulysses.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1114,7 +1114,7 @@
         "photos": [
             {
                 "url": "/images/stories-of-franz-kafka.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1138,7 +1138,7 @@
         "photos": [
             {
                 "url": "/images/the-trial.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1162,7 +1162,7 @@
         "photos": [
             {
                 "url": "/images/the-castle.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1186,7 +1186,7 @@
         "photos": [
             {
                 "url": "/images/the-recognition-of-shakuntala.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Sanskrit",
@@ -1210,7 +1210,7 @@
         "photos": [
             {
                 "url": "/images/the-sound-of-the-mountain.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Japanese",
@@ -1234,7 +1234,7 @@
         "photos": [
             {
                 "url": "/images/zorba-the-greek.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Greek",
@@ -1258,7 +1258,7 @@
         "photos": [
             {
                 "url": "/images/sons-and-lovers.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1282,7 +1282,7 @@
         "photos": [
             {
                 "url": "/images/independent-people.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Icelandic",
@@ -1306,7 +1306,7 @@
         "photos": [
             {
                 "url": "/images/poems-giacomo-leopardi.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Italian",
@@ -1330,7 +1330,7 @@
         "photos": [
             {
                 "url": "/images/the-golden-notebook.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1354,7 +1354,7 @@
         "photos": [
             {
                 "url": "/images/pippi-longstocking.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Swedish",
@@ -1378,7 +1378,7 @@
         "photos": [
             {
                 "url": "/images/diary-of-a-madman.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Chinese",
@@ -1402,7 +1402,7 @@
         "photos": [
             {
                 "url": "/images/children-of-gebelawi.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Arabic",
@@ -1426,7 +1426,7 @@
         "photos": [
             {
                 "url": "/images/buddenbrooks.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1450,7 +1450,7 @@
         "photos": [
             {
                 "url": "/images/the-magic-mountain.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1474,7 +1474,7 @@
         "photos": [
             {
                 "url": "/images/moby-dick.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1498,7 +1498,7 @@
         "photos": [
             {
                 "url": "/images/essais.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -1522,7 +1522,7 @@
         "photos": [
             {
                 "url": "/images/history.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Italian",
@@ -1546,7 +1546,7 @@
         "photos": [
             {
                 "url": "/images/beloved.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1570,7 +1570,7 @@
         "photos": [
             {
                 "url": "/images/the-tale-of-genji.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Japanese",
@@ -1594,7 +1594,7 @@
         "photos": [
             {
                 "url": "/images/the-man-without-qualities.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "German",
@@ -1618,7 +1618,7 @@
         "photos": [
             {
                 "url": "/images/lolita.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1642,7 +1642,7 @@
         "photos": [
             {
                 "url": "/images/nineteen-eighty-four.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1666,7 +1666,7 @@
         "photos": [
             {
                 "url": "/images/the-metamorphoses-of-ovid.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Classical Latin",
@@ -1690,7 +1690,7 @@
         "photos": [
             {
                 "url": "/images/the-book-of-disquiet.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Portuguese",
@@ -1714,7 +1714,7 @@
         "photos": [
             {
                 "url": "/images/tales-and-poems-of-edgar-allan-poe.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1738,7 +1738,7 @@
         "photos": [
             {
                 "url": "/images/a-la-recherche-du-temps-perdu.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -1762,7 +1762,7 @@
         "photos": [
             {
                 "url": "/images/gargantua-and-pantagruel.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -1786,7 +1786,7 @@
         "photos": [
             {
                 "url": "/images/pedro-paramo.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Spanish",
@@ -1810,7 +1810,7 @@
         "photos": [
             {
                 "url": "/images/the-masnavi.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Persian",
@@ -1834,7 +1834,7 @@
         "photos": [
             {
                 "url": "/images/midnights-children.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1858,7 +1858,7 @@
         "photos": [
             {
                 "url": "/images/bostan.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Persian",
@@ -1882,7 +1882,7 @@
         "photos": [
             {
                 "url": "/images/season-of-migration-to-the-north.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Arabic",
@@ -1905,7 +1905,7 @@
         "photos": [
             {
                 "url": "/images/blindness.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Portuguese",
@@ -1928,7 +1928,7 @@
         "photos": [
             {
                 "url": "/images/hamlet.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1951,7 +1951,7 @@
         "photos": [
             {
                 "url": "/images/king-lear.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1974,7 +1974,7 @@
         "photos": [
             {
                 "url": "/images/othello.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -1997,7 +1997,7 @@
         "photos": [
             {
                 "url": "/images/oedipus-the-king.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Greek",
@@ -2020,7 +2020,7 @@
         "photos": [
             {
                 "url": "/images/le-rouge-et-le-noir.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",
@@ -2043,7 +2043,7 @@
         "photos": [
             {
                 "url": "/images/the-life-and-opinions-of-tristram-shandy.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2066,7 +2066,7 @@
         "photos": [
             {
                 "url": "/images/confessions-of-zeno.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Italian",
@@ -2089,7 +2089,7 @@
         "photos": [
             {
                 "url": "/images/gullivers-travels.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2112,7 +2112,7 @@
         "photos": [
             {
                 "url": "/images/war-and-peace.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -2135,7 +2135,7 @@
         "photos": [
             {
                 "url": "/images/anna-karenina.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -2158,7 +2158,7 @@
         "photos": [
             {
                 "url": "/images/the-death-of-ivan-ilyich.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Russian",
@@ -2181,7 +2181,7 @@
         "photos": [
             {
                 "url": "/images/the-adventures-of-huckleberry-finn.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2204,7 +2204,7 @@
         "photos": [
             {
                 "url": "/images/ramayana.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Sanskrit",
@@ -2227,7 +2227,7 @@
         "photos": [
             {
                 "url": "/images/the-aeneid.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Classical Latin",
@@ -2250,7 +2250,7 @@
         "photos": [
             {
                 "url": "/images/the-mahab-harata.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "Sanskrit",
@@ -2273,7 +2273,7 @@
         "photos": [
             {
                 "url": "/images/leaves-of-grass.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2296,7 +2296,7 @@
         "photos": [
             {
                 "url": "/images/mrs-dalloway.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2319,7 +2319,7 @@
         "photos": [
             {
                 "url": "/images/to-the-lighthouse.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "English",
@@ -2342,7 +2342,7 @@
         "photos": [
             {
                 "url": "/images/memoirs-of-hadrian.jpg",
-                "isMain": true
+                "order": 0
             }
         ],
         "language": "French",

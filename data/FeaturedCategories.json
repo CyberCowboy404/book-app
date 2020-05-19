@@ -1,761 +1,765 @@
 [
-    {
-        "category": {
-            "name": "New",
-            "slug": "fiction"
-        },
-        "products": [
-            {
-                "author": "Chinua Achebe",
-                "country": "Nigeria",
-                "photos": [
-                    {
-                        "url": "images/things-fall-apart.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "English",
-                "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
-                "pages": 209,
-                "title": "Things Fall Apart",
-                "year": 1958,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "chinua-achebe-things-fall-apart"
-            },
-            {
-                "author": "Hans Christian Andersen",
-                "country": "Denmark",
-                "photos": [
-                    {
-                        "url": "images/fairy-tales.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Danish",
-                "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
-                "pages": 784,
-                "title": "Fairy tales",
-                "year": 1836,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "hans-christian-andersen-fairy-tales"
-            },
-            {
-                "author": "Dante Alighieri",
-                "country": "Italy",
-                "photos": [
-                    {
-                        "url": "images/the-divine-comedy.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Italian",
-                "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
-                "pages": 928,
-                "title": "The Divine Comedy",
-                "year": 1315,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "dante-alighieri-the-divine-comedy"
-            }
-        ]
+  {
+    "category": {
+      "name": "New",
+      "slug": "fiction",
+      "categoryId": 1
     },
-    {
-        "category": {
-            "name": "Best Sellers",
-            "slug": "fiction"
-        },
-        "products": [
-            {
-                "author": "Samuel Beckett",
-                "country": "Republic of Ireland",
-                "photos": [
-                    {
-                        "url": "images/molloy-malone-dies-the-unnamable.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "French, English",
-                "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
-                "pages": 256,
-                "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-                "year": 1952,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "samuel-beckett-molloy,-malone-dies,-the-unnamable,-the-trilogy"
-            },
-            {
-                "author": "Giovanni Boccaccio",
-                "country": "Italy",
-                "photos": [
-                    {
-                        "url": "images/the-decameron.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Italian",
-                "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
-                "pages": 1024,
-                "title": "The Decameron",
-                "year": 1351,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "giovanni-boccaccio-the-decameron"
-            },
-            {
-                "author": "Jorge Luis Borges",
-                "country": "Argentina",
-                "photos": [
-                    {
-                        "url": "images/ficciones.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Spanish",
-                "link": "https://en.wikipedia.org/wiki/Ficciones\n",
-                "pages": 224,
-                "title": "Ficciones",
-                "year": 1965,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "jorge-luis-borges-ficciones"
-            },
-            {
-                "author": "Emily Brontë",
-                "country": "United Kingdom",
-                "photos": [
-                    {
-                        "url": "images/wuthering-heights.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "English",
-                "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
-                "pages": 342,
-                "title": "Wuthering Heights",
-                "year": 1847,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "emily-brontë-wuthering-heights"
-            },
-            {
-                "author": "Albert Camus",
-                "country": "Algeria, French Empire",
-                "photos": [
-                    {
-                        "url": "images/l-etranger.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "French",
-                "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
-                "pages": 185,
-                "title": "The Stranger",
-                "year": 1942,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "albert-camus-the-stranger"
-            },
-            {
-                "author": "Paul Celan",
-                "country": "Romania, France",
-                "photos": [
-                    {
-                        "url": "images/poems-paul-celan.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "German",
-                "link": "\n",
-                "pages": 320,
-                "title": "Poems",
-                "year": 1952,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "paul-celan-poems"
-            },
-            {
-                "author": "Louis-Ferdinand Céline",
-                "country": "France",
-                "photos": [
-                    {
-                        "url": "images/voyage-au-bout-de-la-nuit.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "French",
-                "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
-                "pages": 505,
-                "title": "Journey to the End of the Night",
-                "year": 1932,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "louis-ferdinand-céline-journey-to-the-end-of-the-night"
-            },
-            {
-                "author": "Miguel de Cervantes",
-                "country": "Spain",
-                "photos": [
-                    {
-                        "url": "images/don-quijote-de-la-mancha.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Spanish",
-                "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
-                "pages": 1056,
-                "title": "Don Quijote De La Mancha",
-                "year": 1610,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "4",
-                "slug": "miguel-de-cervantes-don-quijote-de-la-mancha"
-            },
-            {
-                "author": "Fyodor Dostoevsky",
-                "country": "Russia",
-                "photos": [
-                    {
-                        "url": "images/the-idiot.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Russian",
-                "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
-                "pages": 656,
-                "title": "The Idiot",
-                "year": 1869,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "3",
-                "slug": "fyodor-dostoevsky-the-idiot"
-            },
-            {
-                "author": "Fyodor Dostoevsky",
-                "country": "Russia",
-                "photos": [
-                    {
-                        "url": "images/the-possessed.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Russian",
-                "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
-                "pages": 768,
-                "title": "The Possessed",
-                "year": 1872,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "3",
-                "slug": "fyodor-dostoevsky-the-possessed"
-            },
-            {
-                "author": "Fyodor Dostoevsky",
-                "country": "Russia",
-                "photos": [
-                    {
-                        "url": "images/the-brothers-karamazov.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Russian",
-                "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
-                "pages": 824,
-                "title": "The Brothers Karamazov",
-                "year": 1880,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "fiction",
-                    "detective"
-                ],
-                "rating": "3",
-                "slug": "fyodor-dostoevsky-the-brothers-karamazov"
-            }
-        ]
+    "products": [
+      {
+        "author": "Chinua Achebe",
+        "country": "Nigeria",
+        "photos": [
+          {
+            "url": "images/things-fall-apart.jpg",
+            "order": 0
+          }
+        ],
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+        "pages": 209,
+        "title": "Things Fall Apart",
+        "year": 1958,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "chinua-achebe-things-fall-apart"
+      },
+      {
+        "author": "Hans Christian Andersen",
+        "country": "Denmark",
+        "photos": [
+          {
+            "url": "images/fairy-tales.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Danish",
+        "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+        "pages": 784,
+        "title": "Fairy tales",
+        "year": 1836,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "hans-christian-andersen-fairy-tales"
+      },
+      {
+        "author": "Dante Alighieri",
+        "country": "Italy",
+        "photos": [
+          {
+            "url": "images/the-divine-comedy.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Italian",
+        "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+        "pages": 928,
+        "title": "The Divine Comedy",
+        "year": 1315,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "dante-alighieri-the-divine-comedy"
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Best Sellers",
+      "slug": "fiction",
+      "categoryId": 2
     },
-    {
-        "category": {
-            "name": "Best in Fiction",
-            "slug": "fiction"
-        },
-        "products": [
-            {
-                "author": "Euripides",
-                "country": "Greece",
-                "photos": [
-                    {
-                        "url": "images/medea.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Greek",
-                "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
-                "pages": 104,
-                "title": "Medea",
-                "year": -431,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "euripides-medea"
-            },
-            {
-                "author": "William Faulkner",
-                "country": "United States",
-                "photos": [
-                    {
-                        "url": "images/absalom-absalom.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "English",
-                "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
-                "pages": 313,
-                "title": "Absalom, Absalom!",
-                "year": 1936,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "william-faulkner-absalom,-absalom!"
-            },
-            {
-                "author": "William Faulkner",
-                "country": "United States",
-                "photos": [
-                    {
-                        "url": "images/the-sound-and-the-fury.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "English",
-                "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
-                "pages": 326,
-                "title": "The Sound and the Fury",
-                "year": 1929,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "william-faulkner-the-sound-and-the-fury"
-            },
-            {
-                "author": "Gustave Flaubert",
-                "country": "France",
-                "photos": [
-                    {
-                        "url": "images/madame-bovary.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "French",
-                "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
-                "pages": 528,
-                "title": "Madame Bovary",
-                "year": 1857,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "gustave-flaubert-madame-bovary"
-            },
-            {
-                "author": "Gustave Flaubert",
-                "country": "France",
-                "photos": [
-                    {
-                        "url": "images/l-education-sentimentale.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "French",
-                "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
-                "pages": 606,
-                "title": "Sentimental Education",
-                "year": 1869,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "gustave-flaubert-sentimental-education"
-            },
-            {
-                "author": "Federico García Lorca",
-                "country": "Spain",
-                "photos": [
-                    {
-                        "url": "images/gypsy-ballads.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Spanish",
-                "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
-                "pages": 218,
-                "title": "Gypsy Ballads",
-                "year": 1928,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "federico-garcía-lorca-gypsy-ballads"
-            },
-            {
-                "author": "Gabriel García Márquez",
-                "country": "Colombia",
-                "photos": [
-                    {
-                        "url": "images/one-hundred-years-of-solitude.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Spanish",
-                "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
-                "pages": 417,
-                "title": "One Hundred Years of Solitude",
-                "year": 1967,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "gabriel-garcía-márquez-one-hundred-years-of-solitude"
-            }
-        ]
+    "products": [
+      {
+        "author": "Samuel Beckett",
+        "country": "Republic of Ireland",
+        "photos": [
+          {
+            "url": "images/molloy-malone-dies-the-unnamable.jpg",
+            "order": 0
+          }
+        ],
+        "language": "French, English",
+        "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+        "pages": 256,
+        "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+        "year": 1952,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "samuel-beckett-molloy,-malone-dies,-the-unnamable,-the-trilogy"
+      },
+      {
+        "author": "Giovanni Boccaccio",
+        "country": "Italy",
+        "photos": [
+          {
+            "url": "images/the-decameron.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Italian",
+        "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+        "pages": 1024,
+        "title": "The Decameron",
+        "year": 1351,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "giovanni-boccaccio-the-decameron"
+      },
+      {
+        "author": "Jorge Luis Borges",
+        "country": "Argentina",
+        "photos": [
+          {
+            "url": "images/ficciones.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Spanish",
+        "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+        "pages": 224,
+        "title": "Ficciones",
+        "year": 1965,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "jorge-luis-borges-ficciones"
+      },
+      {
+        "author": "Emily Brontë",
+        "country": "United Kingdom",
+        "photos": [
+          {
+            "url": "images/wuthering-heights.jpg",
+            "order": 0
+          }
+        ],
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+        "pages": 342,
+        "title": "Wuthering Heights",
+        "year": 1847,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "emily-brontë-wuthering-heights"
+      },
+      {
+        "author": "Albert Camus",
+        "country": "Algeria, French Empire",
+        "photos": [
+          {
+            "url": "images/l-etranger.jpg",
+            "order": 0
+          }
+        ],
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+        "pages": 185,
+        "title": "The Stranger",
+        "year": 1942,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "albert-camus-the-stranger"
+      },
+      {
+        "author": "Paul Celan",
+        "country": "Romania, France",
+        "photos": [
+          {
+            "url": "images/poems-paul-celan.jpg",
+            "order": 0
+          }
+        ],
+        "language": "German",
+        "link": "\n",
+        "pages": 320,
+        "title": "Poems",
+        "year": 1952,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "paul-celan-poems"
+      },
+      {
+        "author": "Louis-Ferdinand Céline",
+        "country": "France",
+        "photos": [
+          {
+            "url": "images/voyage-au-bout-de-la-nuit.jpg",
+            "order": 0
+          }
+        ],
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
+        "pages": 505,
+        "title": "Journey to the End of the Night",
+        "year": 1932,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "louis-ferdinand-céline-journey-to-the-end-of-the-night"
+      },
+      {
+        "author": "Miguel de Cervantes",
+        "country": "Spain",
+        "photos": [
+          {
+            "url": "images/don-quijote-de-la-mancha.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Spanish",
+        "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
+        "pages": 1056,
+        "title": "Don Quijote De La Mancha",
+        "year": 1610,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "4",
+        "slug": "miguel-de-cervantes-don-quijote-de-la-mancha"
+      },
+      {
+        "author": "Fyodor Dostoevsky",
+        "country": "Russia",
+        "photos": [
+          {
+            "url": "images/the-idiot.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Russian",
+        "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
+        "pages": 656,
+        "title": "The Idiot",
+        "year": 1869,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "3",
+        "slug": "fyodor-dostoevsky-the-idiot"
+      },
+      {
+        "author": "Fyodor Dostoevsky",
+        "country": "Russia",
+        "photos": [
+          {
+            "url": "images/the-possessed.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Russian",
+        "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
+        "pages": 768,
+        "title": "The Possessed",
+        "year": 1872,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "3",
+        "slug": "fyodor-dostoevsky-the-possessed"
+      },
+      {
+        "author": "Fyodor Dostoevsky",
+        "country": "Russia",
+        "photos": [
+          {
+            "url": "images/the-brothers-karamazov.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Russian",
+        "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
+        "pages": 824,
+        "title": "The Brothers Karamazov",
+        "year": 1880,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "fiction",
+          "detective"
+        ],
+        "rating": "3",
+        "slug": "fyodor-dostoevsky-the-brothers-karamazov"
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Best in Fiction",
+      "slug": "fiction",
+      "categoryId": 3
     },
-    {
-        "category": {
-            "name": "Fantastic",
-            "slug": "fiction"
-        },
-        "products": [
-            {
-                "author": "Gabriel García Márquez",
-                "country": "Colombia",
-                "photos": [
-                    {
-                        "url": "images/love-in-the-time-of-cholera.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Spanish",
-                "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
-                "pages": 368,
-                "title": "Love in the Time of Cholera",
-                "year": 1985,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "gabriel-garcía-márquez-love-in-the-time-of-cholera"
-            },
-            {
-                "author": "Johann Wolfgang von Goethe",
-                "country": "Saxe-Weimar",
-                "photos": [
-                    {
-                        "url": "images/faust.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "German",
-                "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
-                "pages": 158,
-                "title": "Faust",
-                "year": 1832,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "johann-wolfgang-von-goethe-faust"
-            },
-            {
-                "author": "Nikolai Gogol",
-                "country": "Russia",
-                "photos": [
-                    {
-                        "url": "images/dead-souls.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Russian",
-                "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
-                "pages": 432,
-                "title": "Dead Souls",
-                "year": 1842,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "nikolai-gogol-dead-souls"
-            },
-            {
-                "author": "Günter Grass",
-                "country": "Germany",
-                "photos": [
-                    {
-                        "url": "images/the-tin-drum.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "German",
-                "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
-                "pages": 600,
-                "title": "The Tin Drum",
-                "year": 1959,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "günter-grass-the-tin-drum"
-            },
-            {
-                "author": "João Guimarães Rosa",
-                "country": "Brazil",
-                "photos": [
-                    {
-                        "url": "images/the-devil-to-pay-in-the-backlands.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Portuguese",
-                "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
-                "pages": 494,
-                "title": "The Devil to Pay in the Backlands",
-                "year": 1956,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "joão-guimarães-rosa-the-devil-to-pay-in-the-backlands"
-            },
-            {
-                "author": "Knut Hamsun",
-                "country": "Norway",
-                "photos": [
-                    {
-                        "url": "images/hunger.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Norwegian",
-                "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
-                "pages": 176,
-                "title": "Hunger",
-                "year": 1890,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "knut-hamsun-hunger"
-            },
-            {
-                "author": "Ernest Hemingway",
-                "country": "United States",
-                "photos": [
-                    {
-                        "url": "images/the-old-man-and-the-sea.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "English",
-                "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
-                "pages": 128,
-                "title": "The Old Man and the Sea",
-                "year": 1952,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "ernest-hemingway-the-old-man-and-the-sea"
-            },
-            {
-                "author": "Homer",
-                "country": "Greece",
-                "photos": [
-                    {
-                        "url": "images/the-iliad-of-homer.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Greek",
-                "link": "https://en.wikipedia.org/wiki/Iliad\n",
-                "pages": 608,
-                "title": "Iliad",
-                "year": -735,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "homer-iliad"
-            },
-            {
-                "author": "Homer",
-                "country": "Greece",
-                "photos": [
-                    {
-                        "url": "images/the-odyssey-of-homer.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Greek",
-                "link": "https://en.wikipedia.org/wiki/Odyssey\n",
-                "pages": 374,
-                "title": "Odyssey",
-                "year": -800,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "homer-odyssey"
-            },
-            {
-                "author": "Henrik Ibsen",
-                "country": "Norway",
-                "photos": [
-                    {
-                        "url": "images/a-Dolls-house.jpg",
-                        "isMain": true
-                    }
-                ],
-                "language": "Norwegian",
-                "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
-                "pages": 68,
-                "title": "A Doll's House",
-                "year": 1879,
-                "price": 10,
-                "currency": "$",
-                "stockAmount": 100,
-                "category": [
-                    "Best Sellers"
-                ],
-                "rating": "3",
-                "slug": "henrik-ibsen-a-doll's-house"
-            }
-        ]
-    }
+    "products": [
+      {
+        "author": "Euripides",
+        "country": "Greece",
+        "photos": [
+          {
+            "url": "images/medea.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Greek",
+        "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
+        "pages": 104,
+        "title": "Medea",
+        "year": -431,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "euripides-medea"
+      },
+      {
+        "author": "William Faulkner",
+        "country": "United States",
+        "photos": [
+          {
+            "url": "images/absalom-absalom.jpg",
+            "order": 0
+          }
+        ],
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
+        "pages": 313,
+        "title": "Absalom, Absalom!",
+        "year": 1936,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "william-faulkner-absalom,-absalom!"
+      },
+      {
+        "author": "William Faulkner",
+        "country": "United States",
+        "photos": [
+          {
+            "url": "images/the-sound-and-the-fury.jpg",
+            "order": 0
+          }
+        ],
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
+        "pages": 326,
+        "title": "The Sound and the Fury",
+        "year": 1929,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "william-faulkner-the-sound-and-the-fury"
+      },
+      {
+        "author": "Gustave Flaubert",
+        "country": "France",
+        "photos": [
+          {
+            "url": "images/madame-bovary.jpg",
+            "order": 0
+          }
+        ],
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
+        "pages": 528,
+        "title": "Madame Bovary",
+        "year": 1857,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "gustave-flaubert-madame-bovary"
+      },
+      {
+        "author": "Gustave Flaubert",
+        "country": "France",
+        "photos": [
+          {
+            "url": "images/l-education-sentimentale.jpg",
+            "order": 0
+          }
+        ],
+        "language": "French",
+        "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
+        "pages": 606,
+        "title": "Sentimental Education",
+        "year": 1869,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "gustave-flaubert-sentimental-education"
+      },
+      {
+        "author": "Federico García Lorca",
+        "country": "Spain",
+        "photos": [
+          {
+            "url": "images/gypsy-ballads.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Spanish",
+        "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
+        "pages": 218,
+        "title": "Gypsy Ballads",
+        "year": 1928,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "federico-garcía-lorca-gypsy-ballads"
+      },
+      {
+        "author": "Gabriel García Márquez",
+        "country": "Colombia",
+        "photos": [
+          {
+            "url": "images/one-hundred-years-of-solitude.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Spanish",
+        "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
+        "pages": 417,
+        "title": "One Hundred Years of Solitude",
+        "year": 1967,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "gabriel-garcía-márquez-one-hundred-years-of-solitude"
+      }
+    ]
+  },
+  {
+    "category": {
+      "name": "Fantastic",
+      "slug": "fiction",
+      "categoryId": 4
+    },
+    "products": [
+      {
+        "author": "Gabriel García Márquez",
+        "country": "Colombia",
+        "photos": [
+          {
+            "url": "images/love-in-the-time-of-cholera.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Spanish",
+        "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
+        "pages": 368,
+        "title": "Love in the Time of Cholera",
+        "year": 1985,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "gabriel-garcía-márquez-love-in-the-time-of-cholera"
+      },
+      {
+        "author": "Johann Wolfgang von Goethe",
+        "country": "Saxe-Weimar",
+        "photos": [
+          {
+            "url": "images/faust.jpg",
+            "order": 0
+          }
+        ],
+        "language": "German",
+        "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
+        "pages": 158,
+        "title": "Faust",
+        "year": 1832,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "johann-wolfgang-von-goethe-faust"
+      },
+      {
+        "author": "Nikolai Gogol",
+        "country": "Russia",
+        "photos": [
+          {
+            "url": "images/dead-souls.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Russian",
+        "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
+        "pages": 432,
+        "title": "Dead Souls",
+        "year": 1842,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "nikolai-gogol-dead-souls"
+      },
+      {
+        "author": "Günter Grass",
+        "country": "Germany",
+        "photos": [
+          {
+            "url": "images/the-tin-drum.jpg",
+            "order": 0
+          }
+        ],
+        "language": "German",
+        "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
+        "pages": 600,
+        "title": "The Tin Drum",
+        "year": 1959,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "günter-grass-the-tin-drum"
+      },
+      {
+        "author": "João Guimarães Rosa",
+        "country": "Brazil",
+        "photos": [
+          {
+            "url": "images/the-devil-to-pay-in-the-backlands.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Portuguese",
+        "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
+        "pages": 494,
+        "title": "The Devil to Pay in the Backlands",
+        "year": 1956,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "joão-guimarães-rosa-the-devil-to-pay-in-the-backlands"
+      },
+      {
+        "author": "Knut Hamsun",
+        "country": "Norway",
+        "photos": [
+          {
+            "url": "images/hunger.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Norwegian",
+        "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
+        "pages": 176,
+        "title": "Hunger",
+        "year": 1890,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "knut-hamsun-hunger"
+      },
+      {
+        "author": "Ernest Hemingway",
+        "country": "United States",
+        "photos": [
+          {
+            "url": "images/the-old-man-and-the-sea.jpg",
+            "order": 0
+          }
+        ],
+        "language": "English",
+        "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
+        "pages": 128,
+        "title": "The Old Man and the Sea",
+        "year": 1952,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "ernest-hemingway-the-old-man-and-the-sea"
+      },
+      {
+        "author": "Homer",
+        "country": "Greece",
+        "photos": [
+          {
+            "url": "images/the-iliad-of-homer.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Greek",
+        "link": "https://en.wikipedia.org/wiki/Iliad\n",
+        "pages": 608,
+        "title": "Iliad",
+        "year": -735,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "homer-iliad"
+      },
+      {
+        "author": "Homer",
+        "country": "Greece",
+        "photos": [
+          {
+            "url": "images/the-odyssey-of-homer.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Greek",
+        "link": "https://en.wikipedia.org/wiki/Odyssey\n",
+        "pages": 374,
+        "title": "Odyssey",
+        "year": -800,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "homer-odyssey"
+      },
+      {
+        "author": "Henrik Ibsen",
+        "country": "Norway",
+        "photos": [
+          {
+            "url": "images/a-Dolls-house.jpg",
+            "order": 0
+          }
+        ],
+        "language": "Norwegian",
+        "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
+        "pages": 68,
+        "title": "A Doll's House",
+        "year": 1879,
+        "price": 10,
+        "currency": "$",
+        "stockAmount": 100,
+        "category": [
+          "Best Sellers"
+        ],
+        "rating": "3",
+        "slug": "henrik-ibsen-a-doll's-house"
+      }
+    ]
+  }
 ]
