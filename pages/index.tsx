@@ -21,7 +21,7 @@ export default function Home({ products }: { products: IFeaturedCategory[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const products: IFeaturedCategory[] = GetProductsForMainPage(config.mainPageCategories, config.mainCategoryPostCount);
+  const products: IFeaturedCategory[] = GetProductsForMainPage();
   return {
     props: {
       products
