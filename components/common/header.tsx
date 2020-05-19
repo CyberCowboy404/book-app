@@ -1,6 +1,5 @@
 import { FaShoppingBasket } from 'react-icons/fa';
 
-
 export default function Header() {
     let count = 0;
     

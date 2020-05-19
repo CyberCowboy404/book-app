@@ -10,7 +10,7 @@ export default function FeaturedCategory(props: { category: ICategory, products:
         </Link>
         <div>
             {props.products.map((product: IProductAttributes, i: number) => {
-                return <Link key={i} href={product.slug}>
+                return <Link key={i} href={'product/' + product.slug}>
                     <div>
                         <img src={product.photos[0].url} alt={product.photos[0].alt} />
                         <h3>{product.title}</h3>
