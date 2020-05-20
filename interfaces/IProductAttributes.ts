@@ -15,10 +15,11 @@ export interface IProductAttributes {
   author: string;
   price: number;
   type?: string;
+  language?: string;
   pages?: number;
   stockAmount?: number;
   description?: string;
-  category: [string];
+  category: string[];
   rating?: number;
   currency?: string;
   slug: string;
