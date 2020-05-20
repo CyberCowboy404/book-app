@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header>
-      <img width="95px" src="logo.png" alt="Site Logo" />
+      <img width="95px" src="/logo.png" alt="Site Logo" />
       <div>
         <button type="button">Login</button>
         <button type="button">Register</button>
