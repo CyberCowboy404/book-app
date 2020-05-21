@@ -1,7 +1,7 @@
 import React from 'react';
-import books from '../data/book';
-import { IProductAttributes } from '../interfaces/IProductAttributes';
-import ShowCurrency from '../components/ShowCurrency';
+import books from '../../data/book';
+import { IProductAttributes } from '../../interfaces/IProductAttributes';
+import ShowCurrency from '../ShowCurrency';
 
 export default function EmptyBasket() {
   const suggestedBook: IProductAttributes = books[45];
