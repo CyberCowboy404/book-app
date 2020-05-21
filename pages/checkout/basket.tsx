@@ -7,6 +7,7 @@ import EmptyBasket from '../../components/checkout/EmptyBasket';
 import { IProductAttributes } from '../../interfaces/IProductAttributes';
 import books from '../../data/book';
 import ShowCurrency from '../../components/ShowCurrency';
+import ShippingOptions from '../../components/checkout/ShippingInfo';
 
 const basketItems: IProductAttributes[] = [books[0], books[2], books[15]];
 
@@ -46,6 +47,9 @@ export default function Basket() {
       <section>
         {content}
       </section>
+      <aside>
+        <ShippingOptions />
+      </aside>
     </Layout>
   );
 }
