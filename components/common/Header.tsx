@@ -11,8 +11,12 @@ export default function Header() {
         <img width="95px" src="/logo.png" alt="Site Logo" />
       </Link>
       <div>
-        <button type="button">Login</button>
-        <button type="button">Register</button>
+        <Link href="/auth/signin">
+          <button type="button">Login</button>
+        </Link>
+        <Link href="/auth/register">
+          <button type="button">Register</button>
+        </Link>
       </div>
       <div>
         <FaShoppingBasket />

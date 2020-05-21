@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Link from 'next/link';
 import IMenuLinks from '../../interfaces/IMenuLinks';
 
 export default function Footer() {
   const links: IMenuLinks[] = [
-    { name: 'Terms of use', url: 'terms-of-use', order: 1 },
+    { name: 'Terms and conditions', url: '/legal/terms-and-conditions', order: 1 },
     { name: 'Privacy Policy', url: 'privacy-policy', order: 2 },
     { name: 'Shipping', url: 'shipping', order: 3 },
     { name: 'Return Policy', url: 'return-policy', order: 4 },
@@ -14,7 +15,7 @@ export default function Footer() {
     <ul>
       {links.map((el: IMenuLinks) => (
         <li key={el.order}>
-          <Link href={el.url}><span>{el.name}</span></Link>
+          <Link href={el.url}><a>{el.name}</a></Link>
         </li>
       ))}
       <p>
