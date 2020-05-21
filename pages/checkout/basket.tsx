@@ -1,6 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../../components/common/Layout';
 import ProductVertical from '../../components/ProductVertical';
 import EmptyBasket from '../../components/checkout/EmptyBasket';
@@ -34,6 +35,9 @@ export default function Basket() {
           </select>
           <ShowCurrency price={product.price} currency={product.currency} />
         </div>
+        <Link href="/checkout/order">
+          <button type="button">Go to checkout</button>
+        </Link>
       </section>
     ));
   } else {
