@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
-import Layout from '../components/Layout';
+import Layout from '../components/common/Layout';
 import FeaturedCategory from '../components/FeaturedCategory';
 import IFeaturedCategory from '../interfaces/IFeaturedCategories';
 import FeaturedProducts from '../data/FeaturedCategories';

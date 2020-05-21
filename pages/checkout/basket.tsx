@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../../components/Layout';
+import Layout from '../../components/common/Layout';
 import ProductVertical from '../../components/ProductVertical';
 import EmptyBasket from '../../components/EmptyBasket';
 import { IProductAttributes } from '../../interfaces/IProductAttributes';

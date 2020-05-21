@@ -4,7 +4,7 @@ import { FaCheck, FaTimes } from 'react-icons/fa';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { ISlug } from '../../interfaces/ISlug';
 import { IProductAttributes, IProductPhoto } from '../../interfaces/IProductAttributes';
-import Layout from '../../components/Layout';
+import Layout from '../../components/common/Layout';
 import books from '../../data/book';
 import GetAllProductsSlugs from '../../lib/GetAllProductsSlug';
 

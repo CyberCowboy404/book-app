@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../../components/Layout';
+import Layout from '../../components/common/Layout';
 
 export default function RecoverPassword() {
   return (
