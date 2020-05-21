@@ -17,6 +17,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -40,6 +41,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -63,6 +65,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -86,6 +89,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -109,6 +113,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -132,6 +137,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -150,17 +156,18 @@ const books: IProductAttributes[] = [
     ],
     language: 'Old Norse',
     pages: 384,
-    title: "Njál's Saga",
+    title: 'Njá\' Saga',
     year: 1350,
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
     ],
     rating: 4,
-    slug: "unknown-njál's-saga",
+    slug: 'unknown-njá\'-saga',
   },
   {
     author: 'Jane Austen',
@@ -178,6 +185,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -201,6 +209,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -224,6 +233,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -247,6 +257,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -270,6 +281,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -293,6 +305,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -316,6 +329,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -339,6 +353,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -362,6 +377,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -385,6 +401,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -408,6 +425,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -431,6 +449,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -454,6 +473,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -477,6 +497,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -500,6 +521,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -523,6 +545,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -546,6 +569,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -569,6 +593,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -592,6 +617,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -615,6 +641,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'detective',
@@ -638,6 +665,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -660,6 +688,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -682,6 +711,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -704,6 +734,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -726,6 +757,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -748,6 +780,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -770,6 +803,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -792,6 +826,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -814,6 +849,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -836,6 +872,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -858,6 +895,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -880,6 +918,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -902,6 +941,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -924,6 +964,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -946,6 +987,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -968,6 +1010,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -990,6 +1033,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -1012,6 +1056,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
@@ -1029,16 +1074,17 @@ const books: IProductAttributes[] = [
     ],
     language: 'Norwegian',
     pages: 68,
-    title: "A Doll's House",
+    title: 'A Dol\' House',
     year: 1879,
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Best Sellers',
     ],
     rating: 3,
-    slug: "henrik-ibsen-a-doll's-house",
+    slug: 'henrik-ibsen-a-dol\'-house',
   },
   {
     author: 'James Joyce',
@@ -1056,6 +1102,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1079,6 +1126,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1102,6 +1150,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1125,6 +1174,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1148,6 +1198,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1171,6 +1222,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1194,6 +1246,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1217,6 +1270,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1240,6 +1294,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1263,6 +1318,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
       'fantasy',
@@ -1286,6 +1342,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1309,6 +1366,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1332,6 +1390,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1355,6 +1414,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1378,6 +1438,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1401,6 +1462,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1424,6 +1486,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1447,6 +1510,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1470,6 +1534,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1493,6 +1558,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1516,6 +1582,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1539,6 +1606,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'Non fiction',
       'Best Sellers',
@@ -1562,6 +1630,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1585,6 +1654,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1608,6 +1678,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1631,6 +1702,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1654,6 +1726,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1677,6 +1750,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1700,6 +1774,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1723,6 +1798,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1746,6 +1822,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1764,17 +1841,18 @@ const books: IProductAttributes[] = [
     ],
     language: 'English',
     pages: 536,
-    title: "Midnight's Children",
+    title: 'Midnigh\' Children',
     year: 1981,
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
     ],
     rating: 2,
-    slug: "salman-rushdie-midnight's-children",
+    slug: 'salman-rushdie-midnigh\'-children',
   },
   {
     author: 'Saadi',
@@ -1792,6 +1870,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'science',
       'new',
@@ -1815,6 +1894,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1837,6 +1917,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1859,6 +1940,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1881,6 +1963,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1903,6 +1986,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1925,6 +2009,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1947,6 +2032,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1969,6 +2055,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -1991,6 +2078,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2008,16 +2096,17 @@ const books: IProductAttributes[] = [
     ],
     language: 'English',
     pages: 178,
-    title: "Gulliver's Travels",
+    title: 'Gullive\' Travels',
     year: 1726,
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
     rating: 1,
-    slug: "jonathan-swift-gulliver's-travels",
+    slug: 'jonathan-swift-gullive\'-travels',
   },
   {
     author: 'Leo Tolstoy',
@@ -2035,6 +2124,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2057,6 +2147,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2079,6 +2170,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2101,6 +2193,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2123,6 +2216,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2145,6 +2239,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2167,6 +2262,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2189,6 +2285,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2211,6 +2308,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2233,6 +2331,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],
@@ -2255,6 +2354,7 @@ const books: IProductAttributes[] = [
     price: 10,
     currency: '$',
     stockAmount: 100,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet, augue quis consequat viverra, nunc enim pharetra velit, ac porttitor sem tortor id nisi. Aliquam erat volutpat. Donec commodo ante fermentum ante luctus tristique. Integer a libero non sapien efficitur condimentum. Ut lacinia enim lorem, non scelerisque turpis finibus quis.',
     category: [
       'fiction',
     ],

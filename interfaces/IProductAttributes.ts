@@ -21,7 +21,7 @@ export interface IProductAttributes {
   description?: string;
   category: string[];
   rating?: number;
-  currency?: string;
+  currency: string;
   slug: string;
   country?: string;
 };

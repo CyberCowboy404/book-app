@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { FaShoppingBasket } from 'react-icons/fa';
 import Link from 'next/link';
@@ -19,8 +20,12 @@ export default function Header() {
         </Link>
       </div>
       <div>
-        <FaShoppingBasket />
-        <span>{count}</span>
+        <Link href="/checkout/basket">
+          <a>
+            <FaShoppingBasket />
+            <span>{count}</span>
+          </a>
+        </Link>
       </div>
     </header>
   );
