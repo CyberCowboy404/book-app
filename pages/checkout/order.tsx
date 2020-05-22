@@ -5,7 +5,7 @@ import Login from '../../components/auth/Login';
 import SignUp from '../../components/auth/SignUp';
 
 type OrderState = {
-  content: null | JSX.Element,
+  content: JSX.Element,
   hasAccount: number;
 }
 
