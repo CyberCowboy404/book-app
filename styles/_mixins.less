@@ -1,0 +1,65 @@
+.flex {
+  display: -webkit-box; 
+  display: -moz-box; 
+  display:-webkit-flex;
+  display: -ms-flexbox;
+  display:flex;
+}
+
+.flex-int(@fg: 1, @fs: 0, @fb: auto) {
+
+  @fg-boxflex: @fg;
+
+  -webkit-box: @fg-boxflex;
+  -moz-box: @fg-boxflex;
+  -webkit-flex: @fg @fs @fb;
+  -ms-flex: @fg @fs @fb;
+  flex: @fg @fs @fb;
+}
+
+.flex-direction(@direction) {
+  -ms-flex-direction:@direction;
+ -webkit-flex-direction:@direction;
+  flex-direction:@direction;
+}
+
+.flex-align-items(@alignStyle) {
+  -ms-flex-align:@alignStyle;
+  -webkit-align-items:@alignStyle;
+   align-items: @alignStyle;   
+}
+
+.flexbox-shrink(@int: 0) {
+  -webkit-flex-shrink: @int;
+  -moz-flex-shrink: @int;
+  -ms-flex: @int;
+  flex-shrink: @int;
+}
+
+.align-items(@value: stretch) {
+  if(@value = 'flex-start') 
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+  
+
+  if(@value = 'flex-end') 
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+  
+  else {
+    -webkit-box-align: @value;
+    -moz-box-align: @value;
+    -ms-flex-align: @value;
+  }
+
+  -webkit-align-items: @value;
+  align-items: @value;
+}
+
+.flex-row {
+  .flex();
+  .flex-direction(row);
+  .flex-align-items(center);
+}

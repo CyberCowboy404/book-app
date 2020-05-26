@@ -12,16 +12,18 @@ export default function Footer() {
     { name: 'About', url: 'about', order: 5 }];
 
   return (
-    <ul>
-      {links.map((el: IMenuLinks) => (
-        <li key={el.order}>
-          <Link href={el.url}><a>{el.name}</a></Link>
-        </li>
-      ))}
+    <footer>
+      <ul>
+        {links.map((el: IMenuLinks) => (
+          <li key={el.order}>
+            <Link href={el.url}><a>{el.name}</a></Link>
+          </li>
+        ))}
+      </ul>
       <p>
         Copyright
         {new Date().getFullYear()}
       </p>
-    </ul>
+    </footer>
   );
 }

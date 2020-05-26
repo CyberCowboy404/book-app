@@ -12,15 +12,15 @@ export default function FeaturedCategory(
 ) {
   const { category, products } = props;
   return (
-    <div>
+    <div className="feature-category">
       <Link href={{ pathname: '/search', query: { category: category.slug } }}>
         <h2>{category.name}</h2>
       </Link>
-      <div>
+      <section className="feature-category-products">
         {products.map((product: IProductAttributes, i: number) => (
           <ProductVertical key={i} product={product} />
         ))}
-      </div>
+      </section>
     </div>
   );
 }

@@ -11,22 +11,22 @@ export default function Header() {
       <Link href="/">
         <img width="95px" src="/logo.png" alt="Site Logo" />
       </Link>
-      <div>
+      <section>
         <Link href="/auth/signin">
           <button type="button">Login</button>
         </Link>
         <Link href="/auth/register">
           <button type="button">Register</button>
         </Link>
-      </div>
-      <div>
-        <Link href="/checkout/basket">
-          <a>
-            <FaShoppingBasket />
-            <span>{count}</span>
-          </a>
-        </Link>
-      </div>
+        <div>
+          <Link href="/checkout/basket">
+            <a>
+              <FaShoppingBasket />
+              <span>{count}</span>
+            </a>
+          </Link>
+        </div>
+      </section>
     </header>
   );
 }

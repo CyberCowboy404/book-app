@@ -10,10 +10,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
-      <Navigation />
-      <main>{children}</main>
-      <Footer />
+      <div className="wrapper">
+        <Header />
+        <Navigation />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </div>
   );
 }
