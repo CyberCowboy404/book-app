@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Link from 'next/link';
+import styles from './Login.module.less';
 
 export default function Login() {
   return (
-    <section>
+    <section className={styles.loginComponent}>
       <form>
         <div>
           <label htmlFor="email">
@@ -14,6 +15,7 @@ export default function Login() {
         </div>
         <div>
           <label htmlFor="password">
+            Password
             <input type="password" id="password" />
           </label>
         </div>

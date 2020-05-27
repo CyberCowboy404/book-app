@@ -52,7 +52,7 @@
   align-items: @value;
 }
 
-.justify-content(@value: flex-start) {
+.flex-justify-content(@value: flex-start) {
   if(@value = 'flex-start')
     -webkit-box-pack: start;
     -moz-box-pack: start;
@@ -84,4 +84,15 @@
   .flex();
   .flex-direction(row);
   .flex-align-items(center);
+}
+
+.flex-wrap(@value: nowrap) {
+  // No Webkit/FF Box fallback.
+  -webkit-flex-wrap: @value;
+  flex-wrap: @value;
+  if(@value = 'nowrap') 
+    -ms-flex-wrap: none;
+  else {
+    -ms-flex-wrap: @value;
+  }
 }
