@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { IProductAttributes } from '../interfaces/IProductAttributes';
 import ICategory from '../interfaces/ICategory';
 import ProductVertical from './ProductVertical';
+import styles from './FeaturedCategory.module.less';
 
 export default function FeaturedCategory(
   props: {
@@ -12,11 +13,11 @@ export default function FeaturedCategory(
 ) {
   const { category, products } = props;
   return (
-    <div className="feature-category">
+    <div className={styles.featureCategory}>
       <Link href={{ pathname: '/search', query: { category: category.slug } }}>
         <h2>{category.name}</h2>
       </Link>
-      <section className="feature-category-products">
+      <section className={styles.featureCategoryProducts}>
         {products.map((product: IProductAttributes, i: number) => (
           <ProductVertical key={i} product={product} />
         ))}

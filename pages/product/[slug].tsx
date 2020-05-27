@@ -7,6 +7,7 @@ import { IProductAttributes, IProductPhoto } from '../../interfaces/IProductAttr
 import Layout from '../../components/common/Layout';
 import books from '../../data/book';
 import GetAllProductsSlugs from '../../lib/GetAllProductsSlug';
+import style from './slug.module.less';
 
 export default function Product({ product }: { product: IProductAttributes }) {
   let stock;
@@ -35,49 +36,47 @@ export default function Product({ product }: { product: IProductAttributes }) {
       <Head>
         <title>{product.title}</title>
       </Head>
-      <div>
+      <div className={style.productPageContainer}>
         <div>
-          <div>
-            {product.photos.map((photo: IProductPhoto) => (
-              <img
-                key={photo.order}
-                src={photo.url}
-                alt={photo.alt}
-              />
-            ))}
-          </div>
-          <div>
-            <h2>{product.title}</h2>
-            <h2>{product.author}</h2>
-            <p>
-              Country:
-              {product.country}
-            </p>
-            <div>
-              Rating:
-              {product.rating}
-            </div>
-            <div>
-              <div>
-                <div>{product.type}</div>
-                <div>
-                  <label htmlFor="quantity">
-                    Quantity
-                    <input id="quantity" type="text" />
-                  </label>
-                </div>
-                <div>{`${product.currency} ${product.price}`}</div>
-              </div>
-              <div>
-                {product.pages}
-                pages
-              </div>
-              {stock}
-              <button type="button">Add to card</button>
-            </div>
-          </div>
+          {product.photos.map((photo: IProductPhoto) => (
+            <img
+              key={photo.order}
+              src={photo.url}
+              alt={photo.alt}
+            />
+          ))}
         </div>
         <div>
+          <h2>{product.title}</h2>
+          <h2>{product.author}</h2>
+          <p>
+            Country:
+            {product.country}
+          </p>
+          <div>
+            Rating:
+            {product.rating}
+          </div>
+          <div>
+            <div>
+              <div>{product.type}</div>
+              <div>
+                <label htmlFor="quantity">
+                  Quantity
+                  <input id="quantity" type="text" />
+                </label>
+              </div>
+              <div>{`${product.currency} ${product.price}`}</div>
+            </div>
+            <div>
+              {product.pages}
+              pages
+            </div>
+            {stock}
+            <button type="button">Add to card</button>
+          </div>
+        </div>
+        <div className={style.descriptionRow}>
           <h4>Description</h4>
           <div>{product.description}</div>
         </div>

@@ -2,21 +2,22 @@ import React from 'react';
 import Link from 'next/link';
 import { IProductAttributes } from '../interfaces/IProductAttributes';
 import ShowCurrency from './ShowCurrency';
+import styles from './ProductVertical.module.less';
 
 export default function ProductVertical(props: { product: IProductAttributes }) {
   const { product } = props;
   return (
     <Link href={`product/${product.slug}`}>
-      <div className="product-vertical">
-        <div className="image-wrap">
+      <div className={styles.productVertical}>
+        <div className={styles.imageWrap}>
           <img src={product.photos[0].url} alt={product.photos[0].alt} />
         </div>
-        <div className="product-info">
-          <div className="info-wrap">
-            <div className="product-title-wrap">
-              <h3 className="product-title">{product.title}</h3>
+        <div className={styles.productInfo}>
+          <div className={styles.infoWrap}>
+            <div className={styles.productTitleWrap}>
+              <h3 className={styles.productTitle}>{product.title}</h3>
             </div>
-            <h4 className="author">{product.author}</h4>
+            <h4 className={styles.author}>{product.author}</h4>
             <ShowCurrency price={product.price} currency={product.currency} />
           </div>
         </div>
