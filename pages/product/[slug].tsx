@@ -46,8 +46,8 @@ export default function Product({ product }: { product: IProductAttributes }) {
             />
           ))}
         </div>
-        <div>
-          <h2>{product.title}</h2>
+        <div className={style.infoWrapper}>
+          <h1>{product.title}</h1>
           <h2>{product.author}</h2>
           <p>
             Country:
@@ -77,7 +77,7 @@ export default function Product({ product }: { product: IProductAttributes }) {
           </div>
         </div>
         <div className={style.descriptionRow}>
-          <h4>Description</h4>
+          <h1>Description</h1>
           <div>{product.description}</div>
         </div>
       </div>
