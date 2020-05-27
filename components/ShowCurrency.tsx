@@ -8,7 +8,7 @@ type CurrencyProps = {
 export default function ShowCurrency(props: CurrencyProps) {
   const { price, currency }: CurrencyProps = props;
   return (
-    <span>
+    <span className="price">
       {price}
       {currency}
     </span>

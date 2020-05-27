@@ -13,11 +13,11 @@ export default function ProductVertical(props: { product: IProductAttributes }) 
         </div>
         <div className="product-info">
           <div className="info-wrap">
-            <h3>{product.title}</h3>
-            <h4>{product.author}</h4>
-            <p>
-              <ShowCurrency price={product.price} currency={product.currency} />
-            </p>
+            <div className="product-title-wrap">
+              <h3 className="product-title">{product.title}</h3>
+            </div>
+            <h4 className="author">{product.author}</h4>
+            <ShowCurrency price={product.price} currency={product.currency} />
           </div>
         </div>
       </div>

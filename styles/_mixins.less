@@ -23,12 +23,6 @@
   flex-direction:@direction;
 }
 
-.flex-align-items(@alignStyle) {
-  -ms-flex-align:@alignStyle;
-  -webkit-align-items:@alignStyle;
-   align-items: @alignStyle;   
-}
-
 .flexbox-shrink(@int: 0) {
   -webkit-flex-shrink: @int;
   -moz-flex-shrink: @int;
@@ -36,7 +30,7 @@
   flex-shrink: @int;
 }
 
-.align-items(@value: stretch) {
+.flex-align-items(@value: stretch) {
   if(@value = 'flex-start') 
     -webkit-box-align: start;
     -moz-box-align: start;
@@ -56,6 +50,34 @@
 
   -webkit-align-items: @value;
   align-items: @value;
+}
+
+.justify-content(@value: flex-start) {
+  if(@value = 'flex-start')
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+
+  if(@value = 'flex-end') 
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+
+  if(@value = 'space-between')
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+
+  if(@value = 'space-around')
+    -ms-flex-pack: distribute;
+
+  else {
+    -webkit-box-pack: @value;
+    -moz-box-pack: @value;
+    -ms-flex-pack: @value;
+  }
+  -webkit-justify-content: @value;
+  justify-content: @value;
 }
 
 .flex-row {
