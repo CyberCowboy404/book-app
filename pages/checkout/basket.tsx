@@ -10,6 +10,7 @@ import books from '../../data/book';
 import ShowCurrency from '../../components/ShowCurrency';
 import ShippingOptions from '../../components/checkout/ShippingInfo';
 import TotalCosts from '../../components/checkout/TotalCosts';
+import styles from './basket.module.less';
 
 const basketItems: IProductAttributes[] = [books[0], books[2], books[15]];
 
@@ -20,12 +21,12 @@ export default function Basket() {
 
   if (itemsExists) {
     content = basketItems.map((product: IProductAttributes, i: number) => (
-      <section key={i}>
-        <div>
+      <section key={i} className={styles.basketItemWrapper}>
+        <div className={styles.productWrapper}>
           <ProductVertical product={product} />
           <button type="button">Remove</button>
         </div>
-        <div>
+        <div className={styles.quantityWrapper}>
           <select name="quantity">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -35,9 +36,11 @@ export default function Basket() {
           </select>
           <ShowCurrency price={product.price} currency={product.currency} />
         </div>
-        <Link href="/checkout/order">
-          <button type="button">Go to checkout</button>
-        </Link>
+        <div className={styles.checkoutLinkWrapper}>
+          <Link href="/checkout/order">
+            <button type="button">Go to checkout</button>
+          </Link>
+        </div>
       </section>
     ));
   } else {
@@ -49,13 +52,15 @@ export default function Basket() {
       <Head>
         <title>Your basket</title>
       </Head>
-      <section>
-        {content}
-      </section>
-      <aside>
-        <ShippingOptions />
-        <TotalCosts />
-      </aside>
+      <div className={styles.basketWrapper}>
+        <div className={styles.basketItemsWrapper}>
+          {content}
+        </div>
+        <aside>
+          <ShippingOptions />
+          <TotalCosts />
+        </aside>
+      </div>
     </Layout>
   );
 }
