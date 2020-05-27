@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import IMenuLinks from '../../interfaces/IMenuLinks';
+import styles from './Navigation.module.less';
 
 export default function Navigation() {
   const navigationLinks: IMenuLinks[] = [
@@ -12,7 +13,7 @@ export default function Navigation() {
     { name: 'Find a book', url: 'search', order: 5 }];
 
   return (
-    <nav>
+    <nav className={styles.mainNavigation}>
       <ul>
         {navigationLinks.map((el: IMenuLinks) => (
           <li key={el.order}>
