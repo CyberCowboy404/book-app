@@ -1,13 +1,14 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Head from 'next/head';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Layout from '../components/common/Layout';
 import categories from '../data/categories';
 import ICategory from '../interfaces/ICategory';
 import ProductVertical from '../components/ProductVertical';
 import { IProductAttributes } from '../interfaces/IProductAttributes';
 import books from '../data/book';
+import styles from './search.module.less';
 
 export default function SearchPage() {
   const products: IProductAttributes[] = books;
@@ -17,11 +18,11 @@ export default function SearchPage() {
       <Head>
         <title>Find books</title>
       </Head>
-      <section>
+      <div>
         <h4>Found: 100</h4>
         <hr />
-      </section>
-      <section>
+      </div>
+      <div className={styles.sarchPageWrapper}>
         <aside>
           <form>
             <div>
@@ -40,9 +41,13 @@ export default function SearchPage() {
             </div>
             <div>
               <h4>Choose category</h4>
-              {categories.map((category: ICategory) => (
-                <Link key={category.categoryId} href={{ pathname: '/search', query: { category: category.slug } }}><span>{category.name}</span></Link>
-              ))}
+              <ul>
+                {categories.map((category: ICategory) => (
+                  <li key={category.categoryId}>
+                    <button type="button">{category.name}</button>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div>
               <div>
@@ -63,12 +68,12 @@ export default function SearchPage() {
             </div>
           </form>
         </aside>
-        <article>
-          <section>
+        <div>
+          <div className={styles.searchItemsWrapper}>
             {products.map((product: IProductAttributes, i: number) => (
               <ProductVertical key={i} product={product} />
             ))}
-          </section>
+          </div>
           <nav>
             <ul>
               <li>
@@ -99,8 +104,8 @@ export default function SearchPage() {
             <button type="button">Prev</button>
             <button type="button">Next</button>
           </nav>
-        </article>
-      </section>
+        </div>
+      </div>
     </Layout>
   );
 }
