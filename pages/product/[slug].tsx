@@ -8,6 +8,7 @@ import Layout from '../../components/common/Layout';
 import books from '../../data/book';
 import GetAllProductsSlugs from '../../lib/GetAllProductsSlug';
 import style from './slug.module.less';
+import AddToBasketLink from '../../components/Basket/AddToBasketLink';
 
 export default function Product({ product }: { product: IProductAttributes }) {
   let stock;
@@ -60,12 +61,6 @@ export default function Product({ product }: { product: IProductAttributes }) {
           <div>
             <div>
               <div>{product.type}</div>
-              <div>
-                <label htmlFor="quantity">
-                  Quantity
-                  <input id="quantity" type="text" />
-                </label>
-              </div>
               <div>{`${product.currency} ${product.price}`}</div>
             </div>
             <div>
@@ -73,7 +68,7 @@ export default function Product({ product }: { product: IProductAttributes }) {
               pages
             </div>
             {stock}
-            <button type="button">Add to card</button>
+            <AddToBasketLink item={product} />
           </div>
         </div>
         <div className={style.descriptionRow}>

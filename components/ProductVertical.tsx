@@ -7,7 +7,7 @@ import styles from './ProductVertical.module.less';
 export default function ProductVertical(props: { product: IProductAttributes }) {
   const { product } = props;
   return (
-    <Link href={`product/${product.slug}`}>
+    <Link href="product/[slug]" as={`product/${product.slug}`}>
       <div className={styles.productVertical}>
         <div className={styles.imageWrap}>
           <img src={product.photos[0].url} alt={product.photos[0].alt} />
