@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../../Components/common/Layout';
+import Layout from '../../Components/Common/Layout';
 
 export default function RecoverPassword() {
   return (

@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
-import Layout from '../../Components/common/Layout';
-import Login from '../../Components/auth/Login';
-import SignUp from '../../Components/auth/SignUp';
+import Layout from '../../Components/Common/Layout';
+import Login from '../../Components/Auth/Login';
+import SignUp from '../../Components/Auth/SignUp';
 
 type OrderState = {
   content: JSX.Element,

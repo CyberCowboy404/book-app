@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout from '../../Components/common/Layout';
+import Layout from '../../Components/Common/Layout';
 import Login from '../../Components/auth/Login';
 import styles from './signin.module.less';
 

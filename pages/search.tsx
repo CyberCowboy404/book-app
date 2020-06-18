@@ -2,7 +2,7 @@
 import React from 'react';
 import Head from 'next/head';
 // import Link from 'next/link';
-import Layout from '../Components/common/Layout';
+import Layout from '../Components/Common/Layout';
 import categories from '../data/categories';
 import ICategory from '../interfaces/ICategory';
 import ProductVertical from '../Components/ProductVertical';
