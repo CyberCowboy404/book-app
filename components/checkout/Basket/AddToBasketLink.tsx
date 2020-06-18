@@ -1,7 +1,7 @@
 import React, { Component, ChangeEvent } from 'react';
 import { connect } from 'react-redux';
-import { addToBasket } from '../../redux/actions/addToBasket';
-import { BasketLinkProps } from '../../interfaces/IBasketType';
+import { addToBasket } from '../../../redux/actions/addToBasket';
+import { BasketLinkProps } from '../../../interfaces/IBasketType';
 
 class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
   constructor(props: BasketLinkProps) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import shippingOptions from '../../data/ShippingOptions';
 import IShippingInformation from '../../interfaces/IShippingInformation';
-import ShowCurrency from '../../components/ShowCurrency';
+import ShowCurrency from '../../Components/ShowCurrency';
 
 export default function TotalCosts() {
   const totalItems: number = 3;

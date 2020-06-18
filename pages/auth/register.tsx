@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../../components/common/Layout';
-import SignUp from '../../components/auth/SignUp';
+import Layout from '../../Components/common/Layout';
+import SignUp from '../../Components/auth/SignUp';
 
 export default function Register() {
   return (

@@ -2,14 +2,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout from '../../components/common/Layout';
-import ProductVertical from '../../components/ProductVertical';
-import EmptyBasket from '../../components/checkout/EmptyBasket';
+import Layout from '../../Components/common/Layout';
+import ProductVertical from '../../Components/ProductVertical';
+import EmptyBasket from '../../Components/Checkout/Basket/EmptyBasket';
 import { IProductAttributes } from '../../interfaces/IProductAttributes';
 import books from '../../data/book';
-import ShowCurrency from '../../components/ShowCurrency';
-import ShippingOptions from '../../components/checkout/ShippingInfo';
-import TotalCosts from '../../components/checkout/TotalCosts';
+import ShowCurrency from '../../Components/ShowCurrency';
+import ShippingOptions from '../../Components/checkout/ShippingInfo';
+import TotalCosts from '../../Components/checkout/TotalCosts';
 import styles from './basket.module.less';
 
 const basketItems: IProductAttributes[] = [books[0], books[2], books[15]];

@@ -2,10 +2,10 @@
 import React from 'react';
 import Head from 'next/head';
 // import Link from 'next/link';
-import Layout from '../components/common/Layout';
+import Layout from '../Components/common/Layout';
 import categories from '../data/categories';
 import ICategory from '../interfaces/ICategory';
-import ProductVertical from '../components/ProductVertical';
+import ProductVertical from '../Components/ProductVertical';
 import { IProductAttributes } from '../interfaces/IProductAttributes';
 import books from '../data/book';
 import styles from './search.module.less';

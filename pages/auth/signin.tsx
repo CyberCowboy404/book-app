@@ -1,8 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import Layout from '../../components/common/Layout';
-import Login from '../../components/auth/Login';
+import Layout from '../../Components/common/Layout';
+import Login from '../../Components/auth/Login';
 import styles from './signin.module.less';
 
 export default function SignIn() {
