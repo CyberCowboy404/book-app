@@ -1,8 +1,16 @@
 import { IProductAttributes } from './IProductAttributes';
 
 export type IBasketType = {
-  [index: string]: {
-    quantity: number,
-    item: IProductAttributes
-  }
+  [index: string]: BasketStorage;
+}
+
+export type BasketStorage = {
+  quantity: number,
+  item: IProductAttributes
+}
+
+export type BasketLinkProps = {
+  basket: IBasketType,
+  item: IProductAttributes,
+  addToBasket(item: any): void
 }

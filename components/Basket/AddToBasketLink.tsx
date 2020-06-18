@@ -1,18 +1,9 @@
 import React, { Component, ChangeEvent } from 'react';
 import { connect } from 'react-redux';
 import { addToBasket } from '../../redux/actions/addToBasket';
-import { IProductAttributes } from '../../interfaces/IProductAttributes';
-import { IBasketType } from '../../interfaces/IBasketType';
-
-type BasketLinkProps = {
-  basket: IBasketType,
-  item: IProductAttributes,
-  addToBasket(item: any): void
-}
+import { BasketLinkProps } from '../../interfaces/IBasketType';
 
 class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
-  previousQuantity: number;
-
   constructor(props: BasketLinkProps) {
     super(props);
     this.addToBasket = this.addToBasket.bind(this);
@@ -21,8 +12,6 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
     this.state = {
       quantity: 1,
     };
-
-    this.previousQuantity = 0;
   }
 
   // eslint-disable-next-line class-methods-use-this
@@ -48,7 +37,6 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
     }
 
     addToBasket(basketItem);
-    console.log(this);
   }
 
   render() {

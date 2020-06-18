@@ -2,9 +2,15 @@
 import React from 'react';
 import { FaShoppingBasket } from 'react-icons/fa';
 import Link from 'next/link';
+import { connect } from 'react-redux';
+import { BasketLinkProps, BasketStorage } from '../../interfaces/IBasketType';
 
-export default function Header() {
-  const count: number = 0;
+export function Header(props: BasketLinkProps) {
+  let count: number = 0;
+  const { basket } = props;
+  const items: [string, BasketStorage][] = Object.entries(basket);
+
+  count = items.reduce((accumulator, val) => accumulator + val[1].quantity, 0);
 
   return (
     <header>
@@ -30,3 +36,9 @@ export default function Header() {
     </header>
   );
 }
+
+const mapStateToProps = (state: any) => ({
+  basket: state.basket.basket,
+});
+
+export default connect(mapStateToProps)(Header);
