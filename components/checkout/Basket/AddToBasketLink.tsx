@@ -61,7 +61,6 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
   }
 }
 
-
 const mapStateToProps = (state: any) => ({
   basket: state.basket.basket,
 });

@@ -14,3 +14,7 @@ export type BasketLinkProps = {
   item: IProductAttributes,
   addToBasket(item: any): void
 }
+
+export type BasketProp = {
+  basket: IBasketType,
+}
