@@ -23,7 +23,7 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
 
   addToBasket() {
     // eslint-disable-next-line no-shadow
-    const { item, addToBasket, basket } = this.props;
+    const { item, addToBasket, items } = this.props;
     const { quantity } = this.state;
     const basketItem = {
       [item.title]: {
@@ -32,8 +32,13 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
       },
     };
 
-    if (basket[item.title]) {
-      basketItem[item.title].quantity = Number(quantity) + basket[item.title].quantity || 0;
+
+    if (!items || !addToBasket) {
+      return;
+    }
+
+    if (items[item.title]) {
+      basketItem[item.title].quantity = Number(quantity) + items[item.title].quantity || 0;
     }
 
     addToBasket(basketItem);
@@ -62,7 +67,7 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
 }
 
 const mapStateToProps = (state: any) => ({
-  basket: state.basket.basket,
+  items: state.basket.items,
 });
 
 const mapDispatchToProps = {

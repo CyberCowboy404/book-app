@@ -10,11 +10,13 @@ export type BasketStorage = {
 }
 
 export type BasketLinkProps = {
-  basket: IBasketType,
+  items?: IBasketType,
   item: IProductAttributes,
-  addToBasket(item: any): void
+  addToBasket?(item: any): void,
+  removeFromBasket?(item: any): void
+
 }
 
 export type BasketProp = {
-  basket: IBasketType,
+  items: IBasketType,
 }

@@ -1,23 +1,37 @@
-import { BASKET_ADD } from '../constants/actionTypes';
-import { IProductAttributes } from '../../interfaces/IProductAttributes';
+import { BASKET_REMOVE, BASKET_ADD } from '../constants/actionTypes';
 import { IBasketType } from '../../interfaces/IBasketType';
 
-const initialState = { basket: {} };
+const initialState = { items: {} };
 
-export default function addToBasket(state: {
-  basket: IBasketType
-} = initialState, action: {
-  type: string
-  payload: IProductAttributes
-}) {
+export function basket(
+  state: {
+    items: IBasketType;
+  } = initialState,
+  action: {
+    type: string,
+    payload: string[]
+  },
+) {
   switch (action.type) {
     case BASKET_ADD:
       return {
         ...state,
-        basket: { ...state.basket, ...action.payload },
+        items: { ...state.items, ...action.payload },
       };
 
+    case BASKET_REMOVE: {
+      const items = { ...state.items };
+
+      action.payload.forEach((element) => {
+        delete items[element];
+      });
+
+      return {
+        ...state,
+        items,
+      };
+    }
     default:
       return state;
   }
-};
+}

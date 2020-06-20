@@ -7,10 +7,10 @@ import { BasketStorage, BasketProp } from '../../interfaces/IBasketType';
 
 export function Header(props: BasketProp) {
   let count: number = 0;
-  const { basket } = props;
-  const items: [string, BasketStorage][] = Object.entries(basket);
+  const { items } = props;
+  const itemsArr: [string, BasketStorage][] = Object.entries(items);
 
-  count = items.reduce((accumulator, val) => accumulator + val[1].quantity, 0);
+  count = itemsArr.reduce((accumulator, val) => accumulator + val[1].quantity, 0);
 
   return (
     <header>
@@ -38,7 +38,7 @@ export function Header(props: BasketProp) {
 }
 
 const mapStateToProps = (state: any) => ({
-  basket: state.basket.basket,
+  items: state.basket.items,
 });
 
 export default connect(mapStateToProps)(Header);
