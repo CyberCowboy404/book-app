@@ -13,7 +13,7 @@ function BasketContent(props: BasketProp) {
   let content: JSX.Element | JSX.Element[];
   const { items = {} } = props;
   const basketItems = Object.keys(items).length && Object.keys(items).map(
-    (item: string) => items[item].item
+    (item: string) => items[item].item,
   );
 
   if (basketItems) {
