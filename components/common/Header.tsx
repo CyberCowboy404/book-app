@@ -4,13 +4,21 @@ import { FaShoppingBasket } from 'react-icons/fa';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 import { BasketStorage, BasketProp } from '../../interfaces/IBasketType';
+import { BasketItemsBlock } from '../Checkout/Basket/BasketItemsBlock';
+import { IProductAttributes } from '../../interfaces/IProductAttributes';
+import style from '../Checkout/Basket/BasketItemsBlock.module.less';
 
 export function Header(props: BasketProp) {
   let count: number = 0;
   const { items } = props;
   const itemsArr: [string, BasketStorage][] = Object.entries(items);
 
-  count = itemsArr.reduce((accumulator, val) => accumulator + val[1].quantity, 0);
+  const basketItems: IProductAttributes[] = [];
+
+  count = itemsArr.reduce((accumulator, val) => {
+    basketItems.push(Object.assign({quantity: val[1].quantity}, val[1].item));
+    return accumulator + val[1].quantity;
+  }, 0);
 
   return (
     <header>
@@ -26,9 +34,10 @@ export function Header(props: BasketProp) {
         </Link>
         <div>
           <Link href="/checkout/basket">
-            <a>
+            <a className={count > 0 && style.itemsBlockContainer}>
               <FaShoppingBasket />
               <span>{count}</span>
+              <BasketItemsBlock items={basketItems} />
             </a>
           </Link>
         </div>

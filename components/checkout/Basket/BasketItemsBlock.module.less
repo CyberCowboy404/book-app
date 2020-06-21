@@ -1,0 +1,40 @@
+@import '../../../styles/_mixins.less';
+
+@block-width: 300px;
+
+.itemsBlockContainer {
+  position: relative;
+  &:active {
+    color: inherit;
+  }
+  &:hover .itemsBlockWrapper {
+    display: block;
+  }
+  .itemsBlockWrapper {
+    position: absolute;
+    background-color:#b3b3b3; 
+    display: none;
+    top: 17px;
+    left: -@block-width + 30;
+    width: @block-width;
+    max-height: 300px;
+    &:hover { 
+      display: block;
+    }
+  
+  }
+}
+
+.itemsBlock {
+  .flex;
+  .flex-align-items(center);
+  .flex-justify-content(space-between);
+  border-bottom: solid 1px;
+  &:hover {
+    opacity: .8;
+  }
+  img {
+    max-height: 45px;
+  }
+}
+

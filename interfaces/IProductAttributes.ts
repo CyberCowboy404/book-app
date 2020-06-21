@@ -9,6 +9,7 @@ export interface IProductPhoto {
 
 export interface IProductAttributes {
   id?: string;
+  quantity?: number;
   photos: IProductPhoto[];
   title: string;
   year?: number;
