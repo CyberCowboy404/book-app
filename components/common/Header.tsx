@@ -34,7 +34,7 @@ export function Header(props: BasketProp) {
         </Link>
         <div>
           <Link href="/checkout/basket">
-            <a className={count > 0 && style.itemsBlockContainer}>
+            <a className={style.itemsBlockContainer}>
               <FaShoppingBasket />
               <span>{count}</span>
               <BasketItemsBlock items={basketItems} />
