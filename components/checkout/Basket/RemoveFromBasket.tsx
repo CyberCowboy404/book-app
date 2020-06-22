@@ -7,7 +7,7 @@ function RemoveFromBasket(props: BasketLinkProps) {
   const { item } = props;
 
   function handleClick() {
-    const ids = item.title;
+    const ids = item?.title;
     if (props.removeFromBasket) {
       props.removeFromBasket([ids]);
     }
