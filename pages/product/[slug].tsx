@@ -3,7 +3,10 @@ import Head from 'next/head';
 import { FaCheck, FaTimes } from 'react-icons/fa';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import { ISlug } from '../../interfaces/ISlug';
-import { IProductAttributes, IProductPhoto } from '../../interfaces/IProductAttributes';
+import {
+  IProductAttributes,
+  IProductPhoto,
+} from '../../interfaces/IProductAttributes';
 import Layout from '../../Components/Common/Layout';
 import books from '../../data/book';
 import GetAllProductsSlugs from '../../lib/GetAllProductsSlug';
@@ -40,11 +43,7 @@ export default function Product({ product }: { product: IProductAttributes }) {
       <div className={style.productPageContainer}>
         <div>
           {product.photos.map((photo: IProductPhoto) => (
-            <img
-              key={photo.order}
-              src={photo.url}
-              alt={photo.alt}
-            />
+            <img key={photo.order} src={photo.url} alt={photo.alt} />
           ))}
         </div>
         <div className={style.infoWrapper}>
@@ -90,12 +89,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const allProducts: IProductAttributes[] = books;
-  const product: IProductAttributes = allProducts.filter((element: IProductAttributes) => {
-    if (params && params.slug === element.slug) {
-      return element;
+  const product: IProductAttributes = allProducts.filter(
+    (element: IProductAttributes) => {
+      if (params && params.slug === element.slug) {
+        return element;
+      }
+      return false;
     }
-    return false;
-  })[0];
+  )[0];
   return {
     props: {
       product,
