@@ -25,6 +25,9 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
     // eslint-disable-next-line no-shadow
     const { item, addToBasket, items } = this.props;
     const { quantity } = this.state;
+
+    if (!item) return;
+
     const basketItem = {
       [item.title]: {
         quantity,
@@ -32,13 +35,13 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
       },
     };
 
-
     if (!items || !addToBasket) {
       return;
     }
 
     if (items[item.title]) {
-      basketItem[item.title].quantity = Number(quantity) + items[item.title].quantity || 0;
+      basketItem[item.title].quantity =
+        Number(quantity) + items[item.title].quantity || 0;
     }
 
     addToBasket(basketItem);
@@ -56,11 +59,14 @@ class AddToBasketLink extends Component<BasketLinkProps, { quantity: number }> {
               type="number"
               autoComplete="off"
               defaultValue={quantity}
-              onChange={(e: ChangeEvent<HTMLInputElement>) => this.handleChange(e.target.value)}
+              onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                this.handleChange(e.target.value)}
             />
           </label>
         </div>
-        <button onClick={this.addToBasket} type="button">Add to basket</button>
+        <button onClick={this.addToBasket} type="button">
+          Add to basket
+        </button>
       </div>
     );
   }

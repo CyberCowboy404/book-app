@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
-import { connect } from 'react-redux';
 import { isEmpty } from 'lodash';
-import styles from '../../../pages/checkout/basket.module.less';
-import ProductVertical from '../../../Components/ProductVertical';
+import Link from 'next/link';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import EmptyBasket from '../../../Components/Checkout/Basket/EmptyBasket';
+import RemoveFromBasket from '../../../Components/Checkout/Basket/RemoveFromBasket';
+import ProductVertical from '../../../Components/ProductVertical';
 import ShowCurrency from '../../../Components/ShowCurrency';
 import { BasketProp } from '../../../interfaces/IBasketType';
 import { IProductAttributes } from '../../../interfaces/IProductAttributes';
-import RemoveFromBasket from '../../../Components/Checkout/Basket/RemoveFromBasket';
+import styles from '../../../pages/checkout/basket.module.less';
 
 class BasketContent extends Component<BasketProp, BasketProp> {
   public constructor(props: BasketProp) {
@@ -40,10 +40,12 @@ class BasketContent extends Component<BasketProp, BasketProp> {
     let content: JSX.Element | JSX.Element[];
     const { items = {} } = this.state;
     // eslint-disable-next-line prefer-const
-    const basketItems = Object.keys(items).length
-      && Object.keys(items).map((item: string) => (
-        { ...{ quantity: items[item].quantity }, ...items[item].item }
-      ));
+    const basketItems =
+      Object.keys(items).length &&
+      Object.keys(items).map((item: string) => ({
+        ...{ quantity: items[item].quantity },
+        ...items[item].item,
+      }));
 
     if (!isEmpty(basketItems) && basketItems) {
       content = basketItems.map((product: IProductAttributes, i: number) => (
@@ -67,7 +69,6 @@ class BasketContent extends Component<BasketProp, BasketProp> {
     } else {
       content = <EmptyBasket />;
     }
-
 
     return (
       <div>

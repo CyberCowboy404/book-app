@@ -1,4 +1,3 @@
-
 import { BASKET_ADD } from '../constants/actionTypes';
 import { IProductAttributes } from '../../interfaces/IProductAttributes';
 
