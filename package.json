@@ -11,7 +11,7 @@
   "dependencies": {
     "@zeit/next-less": "^1.0.1",
     "lodash": "^4.17.15",
-    "next": "9.4.1",
+    "next": "11.1.0",
     "next-redux-wrapper": "^6.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
